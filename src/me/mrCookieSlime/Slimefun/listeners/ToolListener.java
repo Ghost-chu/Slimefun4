@@ -188,6 +188,10 @@ public class ToolListener implements Listener {
 				}
 				if (allow) {
 					block2.getWorld().dropItemNaturally(block2.getLocation(), BlockStorage.retrieve(block2));
+					SlimefunStartup.instance.logRemoveal(e.getPlayer().getName()
+					,block2.getLocation()
+					,block2.getType()
+					,block2.getBlockData());
 					block2.setType(Material.AIR);
 				}
 				else {
@@ -251,6 +255,10 @@ public class ToolListener implements Listener {
     				}
     				if (success) {
     					BlockStorage.clearBlockInfo(block);
+						SlimefunStartup.instance.logRemoveal(e.getEntity().getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
         				block.setType(Material.AIR);
     				}
     			}
