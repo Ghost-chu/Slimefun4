@@ -4,7 +4,10 @@ import java.io.File;
 
 import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
+import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.World;
+import org.bukkit.block.data.BlockData;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -498,6 +501,27 @@ public class SlimefunStartup extends JavaPlugin {
 
 	public CoreProtectAPI getCoreProtectAPI() {
 		return coreProtectAPI;
+	}
+
+	public boolean logRemoveal(String user, Location location, Material type, BlockData blockData){
+		if(coreProtectAPI == null)
+			return false;
+		return coreProtectAPI.logRemoval(user,location,type,blockData);
+	}
+	public boolean logPlacement(String user, Location location, Material type, BlockData blockData){
+		if(coreProtectAPI == null)
+			return false;
+		return coreProtectAPI.logPlacement(user,location,type,blockData);
+	}
+	public boolean logInteraction(String user, Location location){
+		if(coreProtectAPI == null)
+			return false;
+		return coreProtectAPI.logInteraction(user,location);
+	}
+	public boolean logContainerTransaction(String user, Location location){
+		if(coreProtectAPI == null)
+			return false;
+		return coreProtectAPI.logContainerTransaction(user,location);
 	}
 
 }

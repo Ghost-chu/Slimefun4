@@ -11,6 +11,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 
+import me.mrCookieSlime.Slimefun.api.Slimefun;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Effect;
@@ -381,6 +382,7 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
 								ItemStack stack = BlockStorage.getInventory(b).getItemInSlot(slot);
 								if (stack != null) {
 									Map<Integer, ItemStack> items = d.getInventory().addItem(stack);
+									SlimefunStartup.instance.logContainerTransaction(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName(),b.getLocation());
 									if (items.isEmpty()) BlockStorage.getInventory(b).replaceExistingItem(slot, null);
 									else {
 										for (Map.Entry<Integer, ItemStack> entry: items.entrySet()) {
@@ -460,9 +462,13 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
 										pushItems(b, items);
 										log.getWorld().playEffect(log.getLocation(), Effect.STEP_SOUND, log.getType());
 										if (log.getY() == block.getY()) {
-				        					log.setType(MaterialHelper.getSaplingFromLog(log.getType()));
+											SlimefunStartup.instance.logRemoveal(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName(),log.getLocation(),log.getType(),log.getBlockData());
+											log.setType(MaterialHelper.getSaplingFromLog(log.getType()));
 										}
-										else log.setType(Material.AIR);
+										else {
+											SlimefunStartup.instance.logRemoveal(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName(),log.getLocation(),log.getType(),log.getBlockData());
+											log.setType(Material.AIR);
+										}
 									}
 
 								}
@@ -718,7 +724,13 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
 							pushItems(b, BlockStorage.retrieve(block));
 							if (SlimefunItem.blockhandler.containsKey(item.getID())) SlimefunItem.blockhandler.get(item.getID()).onBreak(null, block, item, UnregisterReason.ANDROID_DIG);
 							block.getWorld().playEffect(block.getLocation(), Effect.STEP_SOUND, block.getType());
+							SlimefunStartup.instance.logRemoveal(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+									,block.getLocation()
+									,block.getType()
+									,block.getBlockData());
 							block.setType(Material.AIR);
+
+
 						}
 					}
 				}
@@ -728,6 +740,10 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
 				if (fits(b, items)) {
 					pushItems(b, items);
 					block.getWorld().playEffect(block.getLocation(), Effect.STEP_SOUND, block.getType());
+					SlimefunStartup.instance.logRemoveal(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+							,block.getLocation()
+							,block.getType()
+							,block.getBlockData());
 					block.setType(Material.AIR);
 				}
 			}
@@ -750,6 +766,10 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
 								blockData.setRotation(face.getOppositeFace());
 								block.setBlockData(blockData);
 								CustomSkull.setSkull(block, CustomSkull.getTexture(getItem()));
+								SlimefunStartup.instance.logRemoveal(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+										,block.getLocation()
+										,block.getType()
+										,block.getBlockData());
 								b.setType(Material.AIR);
 								BlockStorage.moveBlockInfo(b.getLocation(), block.getLocation());
 							}
@@ -766,6 +786,10 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
 						blockData.setRotation(face.getOppositeFace());
 						block.setBlockData(blockData);
 						CustomSkull.setSkull(block, CustomSkull.getTexture(getItem()));
+						SlimefunStartup.instance.logRemoveal(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
 						b.setType(Material.AIR);
 						BlockStorage.moveBlockInfo(b.getLocation(), block.getLocation());
 					}
