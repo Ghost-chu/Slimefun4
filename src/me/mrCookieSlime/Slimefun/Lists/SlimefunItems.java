@@ -533,42 +533,42 @@ public class SlimefunItems {
 	public static ItemStack COMBUSTION_REACTOR = null;
 	public static ItemStack ANDROID_MEMORY_CORE = null;
 	
-	public static ItemStack GPS_TELEPORTER_PYLON = new CustomItem(Material.PURPLE_STAINED_GLASS, "&5GPS Teleporter Pylon", "", "&7Teleporter Component");
-	public static ItemStack GPS_TELEPORTATION_MATRIX = new CustomItem(Material.IRON_BLOCK, "&bGPS Teleporter Matrix", "", "&rThis is your Teleporter's Main Component", "&rThis Matrix allows Players to choose from all", "&rWaypoints made by the Player who has placed", "&rthis Device.");
-	public static ItemStack GPS_ACTIVATION_DEVICE_SHARED = new CustomItem(Material.STONE_PRESSURE_PLATE, "&rGPS Activation Device &3(Shared)", "", "&rPlace this onto a Teleportation Matrix", "&rand step onto this Plate to activate", "&rthe Teleportation Process");
-	public static ItemStack GPS_ACTIVATION_DEVICE_PERSONAL = new CustomItem(Material.STONE_PRESSURE_PLATE, "&rGPS Activation Device &a(Personal)", "", "&rPlace this onto a Teleportation Matrix", "&rand step onto this Plate to activate", "&rthe Teleportation Process", "", "&rThis Version only allows the Person who", "&rplaced this Device to use it");
+	public static ItemStack GPS_TELEPORTER_PYLON = new CustomItem(Material.PURPLE_STAINED_GLASS, "&5GPS 传送器塔", "", "&7传送器组件");
+	public static ItemStack GPS_TELEPORTATION_MATRIX = new CustomItem(Material.IRON_BLOCK, "&bGPS 传送器矩阵", "", "&r这是传送器的主要组件", "&r此矩阵允许玩家从中选择", "&r此设备放置的玩家制作的路径点");
+	public static ItemStack GPS_ACTIVATION_DEVICE_SHARED = new CustomItem(Material.STONE_PRESSURE_PLATE, "&rGPS 激活设备 &3(公共)", "", "&r将其放在传送矩阵上", "&r并踏上这个板激活", "&r传送过程");
+	public static ItemStack GPS_ACTIVATION_DEVICE_PERSONAL = new CustomItem(Material.STONE_PRESSURE_PLATE, "&rGPS 激活设备 &a(私人)", "", "&r将其放在传送矩阵上", "&并踏上这个板激活", "&r传送过程", "", "&r此版本仅允许放置者", "&r使用它");
 
-	public static ItemStack ELEVATOR = new CustomItem(Material.STONE_PRESSURE_PLATE, "&bElevator Plate", "", "&rPlace an Elevator Plate on every floor", "&rand you will be able to teleport between them.", "", "&e右键单击 this Block &7to name it");
+	public static ItemStack ELEVATOR = new CustomItem(Material.STONE_PRESSURE_PLATE, "&b电梯板", "", "&r在每个楼层放置一个电梯板", "&r你将能够在他们之间传送.", "", "&e右键单击 这个方块 &7来命名它");
 	
-	public static ItemStack INFUSED_HOPPER = new CustomItem(Material.HOPPER, "&5Infused Hopper", "", "&rAutomatically picks up nearby Items in a 7x7x7", "&rRadius when placed.");
+	public static ItemStack INFUSED_HOPPER = new CustomItem(Material.HOPPER, "&5注入漏斗", "", "&r自动捡起范围内的物品： 7x7x7", "&r当放置时.");
 
-	public static ItemStack PLASTIC_SHEET = new CustomItem(Material.PAPER, "&rPlastic Sheet");
-	public static ItemStack HEATED_PRESSURE_CHAMBER = new CustomItem(Material.LIGHT_GRAY_STAINED_GLASS, "&cHeated Pressure Chamber", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &710 J/s");
-	public static ItemStack HEATED_PRESSURE_CHAMBER_2 = new CustomItem(Material.LIGHT_GRAY_STAINED_GLASS, "&cHeated Pressure Chamber &7- &eII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 5x", "&8\u21E8 &e\u26A1 &744 J/s");
+	public static ItemStack PLASTIC_SHEET = new CustomItem(Material.PAPER, "&r塑料纸");
+	public static ItemStack HEATED_PRESSURE_CHAMBER = new CustomItem(Material.LIGHT_GRAY_STAINED_GLASS, "&c高温压力室", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &710 J/s");
+	public static ItemStack HEATED_PRESSURE_CHAMBER_2 = new CustomItem(Material.LIGHT_GRAY_STAINED_GLASS, "&c高温压力室 &7- &eII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 5x", "&8\u21E8 &e\u26A1 &744 J/s");
 	
-	public static ItemStack ELECTRIC_SMELTERY = new CustomItem(Material.FURNACE, "&cElectric Smeltery", "", "&4Alloys-Only, doesn't smelt Dust into Ingots", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &720 J/s");
-	public static ItemStack ELECTRIC_SMELTERY_2 = new CustomItem(Material.FURNACE, "&cElectric Smeltery &7- &eII", "", "&4Alloys-Only, doesn't smelt Dust into Ingots", "", "&4游戏后期机器", "&8\u21E8 &7速度: 3x", "&8\u21E8 &e\u26A1 &740 J/s");
+	public static ItemStack ELECTRIC_SMELTERY = new CustomItem(Material.FURNACE, "&c电力冶炼厂", "", "&4仅合金，不会将矿尘熔炼成锭", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &720 J/s");
+	public static ItemStack ELECTRIC_SMELTERY_2 = new CustomItem(Material.FURNACE, "&c电力冶炼厂 &7- &eII", "", "&4仅合金，不会将矿尘熔炼成锭", "", "&4游戏后期机器", "&8\u21E8 &7速度: 3x", "&8\u21E8 &e\u26A1 &740 J/s");
 	
-	public static ItemStack ELECTRIFIED_CRUCIBLE = new CustomItem(Material.RED_TERRACOTTA, "&cElectrified Crucible", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &748 J/s");
-	public static ItemStack ELECTRIFIED_CRUCIBLE_2 = new CustomItem(Material.RED_TERRACOTTA, "&cElectrified Crucible &7- &eII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 2x", "&8\u21E8 &e\u26A1 &780 J/s");
-	public static ItemStack ELECTRIFIED_CRUCIBLE_3 = new CustomItem(Material.RED_TERRACOTTA, "&cElectrified Crucible &7- &eIII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 4x", "&8\u21E8 &e\u26A1 &7120 J/s");
+	public static ItemStack ELECTRIFIED_CRUCIBLE = new CustomItem(Material.RED_TERRACOTTA, "&c电力坩埚", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &748 J/s");
+	public static ItemStack ELECTRIFIED_CRUCIBLE_2 = new CustomItem(Material.RED_TERRACOTTA, "&c电力坩埚 &7- &eII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 2x", "&8\u21E8 &e\u26A1 &780 J/s");
+	public static ItemStack ELECTRIFIED_CRUCIBLE_3 = new CustomItem(Material.RED_TERRACOTTA, "&c电力坩埚 &7- &eIII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 4x", "&8\u21E8 &e\u26A1 &7120 J/s");
 
-	public static ItemStack CARBON_PRESS = new CustomItem(Material.BLACK_STAINED_GLASS, "&cCarbon Press", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &720 J/s");
-	public static ItemStack CARBON_PRESS_2 = new CustomItem(Material.BLACK_STAINED_GLASS, "&cCarbon Press &7- &eII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 3x", "&8\u21E8 &e\u26A1 &750 J/s");
-	public static ItemStack CARBON_PRESS_3 = new CustomItem(Material.BLACK_STAINED_GLASS, "&cCarbon Press &7- &eIII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 15x", "&8\u21E8 &e\u26A1 &7180 J/s");
+	public static ItemStack CARBON_PRESS = new CustomItem(Material.BLACK_STAINED_GLASS, "&c碳压机", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &720 J/s");
+	public static ItemStack CARBON_PRESS_2 = new CustomItem(Material.BLACK_STAINED_GLASS, "&c碳压机 &7- &eII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 3x", "&8\u21E8 &e\u26A1 &750 J/s");
+	public static ItemStack CARBON_PRESS_3 = new CustomItem(Material.BLACK_STAINED_GLASS, "&c碳压机 &7- &eIII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 15x", "&8\u21E8 &e\u26A1 &7180 J/s");
 	
-	public static ItemStack BLISTERING_INGOT = new CustomItem(Material.GOLD_INGOT, "&6Blistering Ingot &7(33%)", "", "&2Radiation Level: HIGH", "&4&oHazmat Suit required");
-	public static ItemStack BLISTERING_INGOT_2 = new CustomItem(Material.GOLD_INGOT, "&6Blistering Ingot &7(66%)", "", "&2Radiation Level: HIGH", "&4&oHazmat Suit required");
-	public static ItemStack BLISTERING_INGOT_3 = new CustomItem(Material.GOLD_INGOT, "&6Blistering Ingot", "", "&2Radiation Level: HIGH", "&4&oHazmat Suit required");
+	public static ItemStack BLISTERING_INGOT = new CustomItem(Material.GOLD_INGOT, "&6起泡锭 &7(33%)", "", "&2辐射等级: HIGH", "&4&o需要危险品套装");
+	public static ItemStack BLISTERING_INGOT_2 = new CustomItem(Material.GOLD_INGOT, "&6起泡锭 &7(66%)", "", "&2辐射等级: HIGH", "&4&o需要危险品套装");
+	public static ItemStack BLISTERING_INGOT_3 = new CustomItem(Material.GOLD_INGOT, "&6起泡锭 Ingot", "", "&2辐射等级: HIGH", "&4&o需要危险品套装");
 	
 	public static ItemStack ENERGY_REGULATOR = null;
-	public static ItemStack DEBUG_FISH = new CustomItem(Material.PUFFERFISH, "&3How much is the Fish?", "", "&e右键单击 &rany Block to view it's BlockData", "&eLeft Click &rto break a Block", "&eShift + Left Click &rany Block to erase it's BlockData", "&eShift + Right Click &rto place a Placeholder Block");
+	public static ItemStack DEBUG_FISH = new CustomItem(Material.PUFFERFISH, "&3鱼怎么样?", "", "&e右键单击 &r任意方块来查看BlockData", "&e左键单击 &r来破坏方块", "&eShift + 左键单击 &r任意方块来抹除BlockData", "&eShift + 右键单击 &r来放置占位符方块");
 
 
 	public static ItemStack NETHER_ICE = null;
 	public static ItemStack ENRICHED_NETHER_ICE = null;
 	public static ItemStack NETHER_ICE_COOLANT_CELL = null;
-	public static ItemStack NETHER_DRILL = new CustomItem(Material.RED_TERRACOTTA, "&4Nether Drill", "", "&rAllows you to mine Nether Ice", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &7102 J/s", "", "&c&l! &cCan only be used in the Nether!", "&c&l! &cMake sure to Geo-Scan the Chunk first");
+	public static ItemStack NETHER_DRILL = new CustomItem(Material.RED_TERRACOTTA, "&4下界钻", "", "&r允许你挖掘下界之冰", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &7102 J/s", "", "&c&l! &c只能在下界使用!", "&c&l! &c确保进行过地理扫描");
 	
 	// Cargo
 	public static ItemStack CARGO_MANAGER = null;
@@ -577,7 +577,7 @@ public class SlimefunItems {
 	public static ItemStack CARGO_OUTPUT = null;
 	public static ItemStack CARGO_OUTPUT_ADVANCED = null;
 
-	public static ItemStack AUTO_BREEDER = new CustomItem(Material.HAY_BLOCK, "&eAuto-Breeder", "", "&rs使用&a有机食品", "", "&4游戏后期机器", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &760 J/Animal");;
+	public static ItemStack AUTO_BREEDER = new CustomItem(Material.HAY_BLOCK, "&e自动哺育机", "", "&rs使用&a有机食品", "", "&4游戏后期机器", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &760 J/动物");;
 	
 	public static ItemStack ORGANIC_FOOD = null;
 	public static ItemStack WHEAT_ORGANIC_FOOD = null;
