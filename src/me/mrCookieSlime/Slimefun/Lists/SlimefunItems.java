@@ -518,18 +518,18 @@ public class SlimefunItems {
 	public static ItemStack GPS_TRANSMITTER_4 = null;
 	
 	public static ItemStack GPS_CONTROL_PANEL = null;
-	public static ItemStack GPS_MARKER_TOOL = new CustomItem(Material.REDSTONE_TORCH, "&bGPS Marker Tool", "", "&rAllows you to set a Waypoint at", "&rthe Location you place this");
+	public static ItemStack GPS_MARKER_TOOL = new CustomItem(Material.REDSTONE_TORCH, "&bGPS 标记工具", "", "&r允许您设置路径点在", "&r您放置此位置");
 	public static ItemStack GPS_EMERGENCY_TRANSMITTER = null;
 	public static ItemStack GPS_GEO_SCANNER = null;
 	
-	public static ItemStack ANDROID_INTERFACE_FUEL = new CustomItem(Material.DISPENSER, "&7Android Interface &c(Fuel)", "", "&rItems stored in this Interface", "&rwill be inserted into an Android's Fuel Slot", "&rwhen its Script tells them to do so");
-	public static ItemStack ANDROID_INTERFACE_ITEMS = new CustomItem(Material.DISPENSER, "&7Android Interface &9(Items)", "", "&rItems stored in an Android's Inventory", "&rwill be inserted into this Interface", "&rwhen its Script tells them to do so");
+	public static ItemStack ANDROID_INTERFACE_FUEL = new CustomItem(Material.DISPENSER, "&7机器人接口 &c(燃料)", "", "&r存储在此接口中的项目", "&r将插入机器人的燃料槽", "&r当它的脚本运行需要时");
+	public static ItemStack ANDROID_INTERFACE_ITEMS = new CustomItem(Material.DISPENSER, "&7机器人接口 &9(物品)", "", "&r存储在机器人库存中的项目", "&r将被插入此接口", "&r当它的脚本运行需要时");
 
 	public static ItemStack BUCKET_OF_OIL = null;
 	public static ItemStack BUCKET_OF_FUEL = null;
 	public static ItemStack OIL_PUMP = null;
 
-	public static ItemStack REFINERY = new CustomItem(Material.PISTON, "&cRefinery", "", "&rRefines Oil to create Fuel");
+	public static ItemStack REFINERY = new CustomItem(Material.PISTON, "&c炼油厂", "", "&r精炼油以创造燃料");
 	public static ItemStack COMBUSTION_REACTOR = null;
 	public static ItemStack ANDROID_MEMORY_CORE = null;
 	
