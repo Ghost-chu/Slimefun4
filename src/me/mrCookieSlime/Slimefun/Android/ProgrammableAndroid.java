@@ -729,8 +729,6 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
 									,block.getType()
 									,block.getBlockData());
 							block.setType(Material.AIR);
-
-
 						}
 					}
 				}
@@ -819,9 +817,17 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
                     ItemStack drop = new ItemStack(Material.WHEAT, CSCoreLib.randomizer().nextInt(3) + 1);
                     if (fits(b, drop)) {
                         pushItems(b, drop);
+						SlimefunStartup.instance.logRemoveal(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
                         Ageable ageable = (Ageable) block.getBlockData();
                         ageable.setAge(0);
                         block.setBlockData(ageable);
+						SlimefunStartup.instance.logPlacement(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
                         block.getWorld().playEffect(block.getLocation(), Effect.STEP_SOUND, block.getType());
                     }
                 }
@@ -832,9 +838,17 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
                     ItemStack drop = new ItemStack(Material.POTATO, CSCoreLib.randomizer().nextInt(3) + 1);
                     if (fits(b, drop)) {
                         pushItems(b, drop);
-                        Ageable ageable = (Ageable) block.getBlockData();
-                        ageable.setAge(0);
-                        block.setBlockData(ageable);
+						SlimefunStartup.instance.logRemoveal(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
+						Ageable ageable = (Ageable) block.getBlockData();
+						ageable.setAge(0);
+						block.setBlockData(ageable);
+						SlimefunStartup.instance.logPlacement(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
                         block.getWorld().playEffect(block.getLocation(), Effect.STEP_SOUND, block.getType());
                     }
                 }
@@ -845,9 +859,17 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
                     ItemStack drop = new ItemStack(Material.CARROT, CSCoreLib.randomizer().nextInt(3) + 1);
                     if (fits(b, drop)) {
                         pushItems(b, drop);
-                        Ageable ageable = (Ageable) block.getBlockData();
-                        ageable.setAge(0);
-                        block.setBlockData(ageable);
+						SlimefunStartup.instance.logRemoveal(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
+						Ageable ageable = (Ageable) block.getBlockData();
+						ageable.setAge(0);
+						block.setBlockData(ageable);
+						SlimefunStartup.instance.logPlacement(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
                         block.getWorld().playEffect(block.getLocation(), Effect.STEP_SOUND, block.getType());
                     }
                 }
@@ -858,9 +880,17 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
                     ItemStack drop = new ItemStack(Material.BEETROOT, CSCoreLib.randomizer().nextInt(3) + 1);
                     if (fits(b, drop)) {
                         pushItems(b, drop);
-                        Ageable ageable = (Ageable) block.getBlockData();
-                        ageable.setAge(0);
-                        block.setBlockData(ageable);
+						SlimefunStartup.instance.logRemoveal(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
+						Ageable ageable = (Ageable) block.getBlockData();
+						ageable.setAge(0);
+						block.setBlockData(ageable);
+						SlimefunStartup.instance.logPlacement(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
                         block.getWorld().playEffect(block.getLocation(), Effect.STEP_SOUND, block.getType());
                     }
                 }
@@ -871,9 +901,17 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
                     ItemStack drop = new ItemStack(Material.COCOA_BEANS, CSCoreLib.randomizer().nextInt(3) + 1);
                     if (fits(b, drop)) {
                         pushItems(b, drop);
-                        Ageable ageable = (Ageable) block.getBlockData();
-                        ageable.setAge(0);
-                        block.setBlockData(ageable);
+						SlimefunStartup.instance.logRemoveal(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
+						Ageable ageable = (Ageable) block.getBlockData();
+						ageable.setAge(0);
+						block.setBlockData(ageable);
+						SlimefunStartup.instance.logPlacement(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
                         block.getWorld().playEffect(block.getLocation(), Effect.STEP_SOUND, block.getType());
                     }
                 }
@@ -884,9 +922,17 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
                     ItemStack drop = new ItemStack(Material.NETHER_WART, CSCoreLib.randomizer().nextInt(3) + 1);
                     if (fits(b, drop)) {
                         pushItems(b, drop);
-                        Ageable ageable = (Ageable) block.getBlockData();
-                        ageable.setAge(0);
-                        block.setBlockData(ageable);
+						SlimefunStartup.instance.logRemoveal(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
+						Ageable ageable = (Ageable) block.getBlockData();
+						ageable.setAge(0);
+						block.setBlockData(ageable);
+						SlimefunStartup.instance.logPlacement(Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"))).getName()
+								,block.getLocation()
+								,block.getType()
+								,block.getBlockData());
                         block.getWorld().playEffect(block.getLocation(), Effect.STEP_SOUND, block.getType());
                     }
                 }
