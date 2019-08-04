@@ -577,7 +577,7 @@ public class SlimefunItems {
 	public static ItemStack CARGO_OUTPUT = null;
 	public static ItemStack CARGO_OUTPUT_ADVANCED = null;
 
-	public static ItemStack AUTO_BREEDER = new CustomItem(Material.HAY_BLOCK, "&eAuto-Breeder", "", "&rRuns on &aOrganic Food", "", "&4游戏后期机器", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &760 J/Animal");;
+	public static ItemStack AUTO_BREEDER = new CustomItem(Material.HAY_BLOCK, "&eAuto-Breeder", "", "&rs使用&a有机食品", "", "&4游戏后期机器", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &760 J/Animal");;
 	
 	public static ItemStack ORGANIC_FOOD = null;
 	public static ItemStack WHEAT_ORGANIC_FOOD = null;
@@ -597,15 +597,15 @@ public class SlimefunItems {
 	public static ItemStack MELON_FERTILIZER = null;
 	public static ItemStack APPLE_FERTILIZER = null;
 	
-	public static ItemStack ANIMAL_GROWTH_ACCELERATOR = new CustomItem(Material.HAY_BLOCK, "&bAnimal Growth Accelerator", "", "&rRuns on &aOrganic Food", "", "&4游戏后期机器", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &728 J/s");;
-	public static ItemStack CROP_GROWTH_ACCELERATOR = new CustomItem(Material.LIME_TERRACOTTA, "&aCrop Growth Accelerator", "", "&rRuns on &aOrganic Fertilizer", "", "&4游戏后期机器", "&8\u21E8 &7Radius: 7x7", "&8\u21E8 &7速度: &a3/time", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &750 J/s");
-	public static ItemStack CROP_GROWTH_ACCELERATOR_2 = new CustomItem(Material.LIME_TERRACOTTA, "&aCrop Growth Accelerator &7(&eII&7)", "", "&rRuns on &aOrganic Fertilizer", "", "&4游戏后期机器", "&8\u21E8 &7Radius: 9x9", "&8\u21E8 &7速度: &a4/time", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &760 J/s");
+	public static ItemStack ANIMAL_GROWTH_ACCELERATOR = new CustomItem(Material.HAY_BLOCK, "&b动物生长加速器", "", "&rs使用&a有机食品", "", "&4游戏后期机器", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &728 J/s");;
+	public static ItemStack CROP_GROWTH_ACCELERATOR = new CustomItem(Material.LIME_TERRACOTTA, "&a作物生长加速器", "", "&r使用&a有机肥", "", "&4游戏后期机器", "&8\u21E8 &7距离: 7x7", "&8\u21E8 &7速度: &a3/time", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &750 J/s");
+	public static ItemStack CROP_GROWTH_ACCELERATOR_2 = new CustomItem(Material.LIME_TERRACOTTA, "&a作物生长加速器 &7(&eII&7)", "", "&r使用&a有机肥", "", "&4游戏后期机器", "&8\u21E8 &7距离: 9x9", "&8\u21E8 &7速度: &a4/时间", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &760 J/s");
 
-	public static ItemStack FOOD_FABRICATOR = new CustomItem(Material.GREEN_STAINED_GLASS, "&cFood Fabricator", "", "&rProduces &aOrganic Food", "", "&6高级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &7256 J 缓冲", "&8\u21E8 &e\u26A1 &714 J/s");
-	public static ItemStack FOOD_FABRICATOR_2 = new CustomItem(Material.GREEN_STAINED_GLASS, "&cFood Fabricator &7(&eII&7)", "", "&rProduces &aOrganic Food", "", "&4游戏后期机器", "&8\u21E8 &7速度: 6x", "&8\u21E8 &e\u26A1 &7512 J 缓冲", "&8\u21E8 &e\u26A1 &748 J/s");
+	public static ItemStack FOOD_FABRICATOR = new CustomItem(Material.GREEN_STAINED_GLASS, "&c食品制造器", "", "&r生产&a有机食品", "", "&6高级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &7256 J 缓冲", "&8\u21E8 &e\u26A1 &714 J/s");
+	public static ItemStack FOOD_FABRICATOR_2 = new CustomItem(Material.GREEN_STAINED_GLASS, "&c食品制造器 &7(&eII&7)", "", "&r生产&a有机食品", "", "&4游戏后期机器", "&8\u21E8 &7速度: 6x", "&8\u21E8 &e\u26A1 &7512 J 缓冲", "&8\u21E8 &e\u26A1 &748 J/s");
 	
-	public static ItemStack FOOD_COMPOSTER = new CustomItem(Material.GREEN_TERRACOTTA, "&cFood Composter", "", "&rProduces &aOrganic Fertilizer", "", "&6高级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &7256 J 缓冲", "&8\u21E8 &e\u26A1 &716 J/s");
-	public static ItemStack FOOD_COMPOSTER_2 = new CustomItem(Material.GREEN_TERRACOTTA, "&cFood Composter &7(&eII&7)", "", "&rProduces &aOrganic Fertilizer", "", "&4游戏后期机器", "&8\u21E8 &7速度: 10x", "&8\u21E8 &e\u26A1 &7512 J 缓冲", "&8\u21E8 &e\u26A1 &752 J/s");
+	public static ItemStack FOOD_COMPOSTER = new CustomItem(Material.GREEN_TERRACOTTA, "&c食品压缩机", "", "&r生产&a有机肥", "", "&6高级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &7256 J 缓冲", "&8\u21E8 &e\u26A1 &716 J/s");
+	public static ItemStack FOOD_COMPOSTER_2 = new CustomItem(Material.GREEN_TERRACOTTA, "&c食品压缩机 &7(&eII&7)", "", "&r生产&a有机肥", "", "&4游戏后期机器", "&8\u21E8 &7速度: 10x", "&8\u21E8 &e\u26A1 &7512 J 缓冲", "&8\u21E8 &e\u26A1 &752 J/s");
 
 	public static ItemStack XP_COLLECTOR = null;
 	public static ItemStack REACTOR_COOLANT_CELL = null;
