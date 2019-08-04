@@ -65,7 +65,7 @@ public class GPSNetwork {
 	}
 	
 	public void openTransmitterControlPanel(Player p) throws Exception {
-		ChestMenu menu = new ChestMenu("&9Control Panel");
+		ChestMenu menu = new ChestMenu("&9控制面板");
 		
 		for (int slot : border) {
 			menu.addItem(slot, new CustomItem(new ItemStack(Material.GRAY_STAINED_GLASS_PANE), " "),
@@ -127,7 +127,7 @@ public class GPSNetwork {
 	}
 	
 	public void openWaypointControlPanel(Player p) throws Exception {
-		ChestMenu menu = new ChestMenu("&9Control Panel");
+		ChestMenu menu = new ChestMenu("&9控制面板");
 		
 		for (int slot: border) {
 			menu.addItem(slot, new CustomItem(new ItemStack(Material.GRAY_STAINED_GLASS_PANE), " "),
@@ -163,7 +163,7 @@ public class GPSNetwork {
 			Location l = entry.getValue();
 			ItemStack globe = getPlanet(entry);
 			
-			menu.addItem(slot, new CustomItem(globe, entry.getKey(), "&8\u21E8 &7World: &r" + l.getWorld().getName(), "&8\u21E8 &7X: &r" + l.getX(), "&8\u21E8 &7Y: &r" + l.getY(), "&8\u21E8 &7Z: &r" + l.getZ(), "", "&8\u21E8 &cClick to delete"));
+			menu.addItem(slot, new CustomItem(globe, entry.getKey(), "&8\u21E8 &7世界: &r" + l.getWorld().getName(), "&8\u21E8 &7X: &r" + l.getX(), "&8\u21E8 &7Y: &r" + l.getY(), "&8\u21E8 &7Z: &r" + l.getZ(), "", "&8\u21E8 &c点击删除"));
 			menu.addMenuClickHandler(slot, (pl, slotn, item, action) -> {
 				String id = ChatColor.stripColor(ChatColor.translateAlternateColorCodes('&', entry.getKey())).toUpperCase().replace(" ", "_");
 				Config cfg = new Config("data-storage/Slimefun/waypoints/" + pl.getUniqueId().toString() + ".yml");
@@ -231,14 +231,14 @@ public class GPSNetwork {
 			Messages.local.sendTranslation(p, "gps.insufficient-complexity", true, new Variable("%complexity%", String.valueOf(600)));
 			return;
 		}
-		ChestMenu menu = new ChestMenu("&4Scan Results");
+		ChestMenu menu = new ChestMenu("&4扫描结果");
 		
 		int index = 0;
 		
 		for (OreGenResource resource: OreGenSystem.listResources()) {
 			int supply = OreGenSystem.getSupplies(resource, chunk, true);
 			
-			menu.addItem(index, new CustomItem(resource.getIcon(), "&7Resource: &e" + resource.getName(), "", "&7Scanned Chunk:", "&8\u21E8 &7X: " + chunk.getX() + " Z: " + chunk.getZ(), "", "&7Result: &e" + supply + " " + resource.getMeasurementUnit()),
+			menu.addItem(index, new CustomItem(resource.getIcon(), "&7资源: &e" + resource.getName(), "", "&7扫描的区块:", "&8\u21E8 &7X: " + chunk.getX() + " Z: " + chunk.getZ(), "", "&7Result: &e" + supply + " " + resource.getMeasurementUnit()),
 				(pl, slot, item, action) -> false
 			);
 			index++;
@@ -256,7 +256,7 @@ public class GPSNetwork {
 		p.playSound(p.getLocation(), Sound.UI_BUTTON_CLICK, 1F, 1F);
 		TeleportationSequence.players.add(p.getUniqueId());
 		
-		ChestMenu menu = new ChestMenu("&3Teleporter");
+		ChestMenu menu = new ChestMenu("&3传送器");
 		
 		menu.addMenuCloseHandler(
 			pl -> TeleportationSequence.players.remove(pl.getUniqueId())
@@ -282,7 +282,7 @@ public class GPSNetwork {
 			final Location l = entry.getValue();
 			ItemStack globe = getPlanet(entry);
 			
-			menu.addItem(slot, new CustomItem(globe, entry.getKey(), "&8\u21E8 &7World: &r" + l.getWorld().getName(), "&8\u21E8 &7X: &r" + l.getX(), "&8\u21E8 &7Y: &r" + l.getY(), "&8\u21E8 &7Z: &r" + l.getZ(), "&8\u21E8 &7Estimated Teleportation Time: &r" + (50 / TeleportationSequence.getSpeed(Slimefun.getGPSNetwork().getNetworkComplexity(uuid), source, l)) + "s", "", "&8\u21E8 &cClick to select"));
+			menu.addItem(slot, new CustomItem(globe, entry.getKey(), "&8\u21E8 &7世界: &r" + l.getWorld().getName(), "&8\u21E8 &7X: &r" + l.getX(), "&8\u21E8 &7Y: &r" + l.getY(), "&8\u21E8 &7Z: &r" + l.getZ(), "&8\u21E8 &7预计传送时间: &r" + (50 / TeleportationSequence.getSpeed(Slimefun.getGPSNetwork().getNetworkComplexity(uuid), source, l)) + "s", "", "&8\u21E8 &c点击来选择"));
 			menu.addMenuClickHandler(slot, (pl, slotn, item, action) -> {
 					pl.closeInventory();
 					TeleportationSequence.start(pl.getUniqueId(), complexity, source, l, false);

@@ -244,7 +244,7 @@ public class SlimefunCommand implements CommandExecutor, Listener {
 								e.printStackTrace();
 							}
 						}
-						else sender.sendMessage("&4Unknown Player: &c" + args[1]);
+						else sender.sendMessage("&4未知玩家: &c" + args[1]);
 					}
 					else Messages.local.sendTranslation(sender, "messages.no-permission", true);
 				}

@@ -140,16 +140,16 @@ public class CargoNet extends Network {
 
 	public void tick(final Block b) {
 		if (!regulator.equals(b.getLocation())) {
-			CargoHologram.update(b, "&4Multiple Cargo Regulators connected");
+			CargoHologram.update(b, "&4多个货物调节器已连接");
 			return;
 		}
 		super.tick();
 		if (connectorNodes.isEmpty() && terminusNodes.isEmpty()) {
-			CargoHologram.update(b, "&7Status: &4&lOFFLINE");
+			CargoHologram.update(b, "&7状态: &4&l离线");
 			return;
 		}
 		else {
-			CargoHologram.update(b, "&7Status: &a&lONLINE");
+			CargoHologram.update(b, "&7状态: &a&l在线");
 
 
 			final Map<Integer, List<Location>> output = new HashMap<Integer, List<Location>>();
