@@ -523,8 +523,4 @@ public class SlimefunStartup extends JavaPlugin {
 			return false;
 		return coreProtectAPI.logContainerTransaction(user,location);
 	}
-	public boolean logKill(String user, Location location){
-		if(coreProtectAPI == null)
-			return false;
-	}
 }

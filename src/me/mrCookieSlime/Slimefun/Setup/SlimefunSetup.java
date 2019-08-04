@@ -674,10 +674,13 @@ public class SlimefunSetup {
 							if (SlimefunStartup.chance(100, (Integer) Slimefun.getItemValue("GOLD_PAN", "chance.SIFTED_ORE"))) drops.add(SlimefunItems.SIFTED_ORE);
 								else if (SlimefunStartup.chance(100, (Integer) Slimefun.getItemValue("GOLD_PAN", "chance.CLAY"))) drops.add(new ItemStack(Material.CLAY_BALL));
 								else if (SlimefunStartup.chance(100, (Integer) Slimefun.getItemValue("GOLD_PAN", "chance.FLINT"))) drops.add(new ItemStack(Material.FLINT));
-
-
-							
 								e.getClickedBlock().getWorld().playEffect(e.getClickedBlock().getLocation(), Effect.STEP_SOUND, e.getClickedBlock().getType());
+							SlimefunStartup.instance.logRemoveal(
+									e.getPlayer().getName()
+									,e.getClickedBlock().getLocation()
+									,e.getClickedBlock().getType()
+									,e.getClickedBlock().getBlockData()
+							);
 								e.getClickedBlock().setType(Material.AIR);
 								for (ItemStack drop: drops) {
 									e.getClickedBlock().getWorld().dropItemNaturally(e.getClickedBlock().getLocation(), drop);
@@ -767,12 +770,24 @@ public class SlimefunSetup {
 																
 																Block fire = b.getRelative(BlockFace.DOWN).getRelative(BlockFace.DOWN);
 																fire.getWorld().playEffect(fire.getLocation(), Effect.STEP_SOUND, fire.getType());
+																SlimefunStartup.instance.logRemoveal(
+																		p.getName()
+																		,fire.getLocation()
+																		,fire.getType()
+																		,fire.getBlockData()
+																);
 																fire.setType(Material.AIR);
 															}
 														} 
 														else {
 															Block fire = b.getRelative(BlockFace.DOWN).getRelative(BlockFace.DOWN);
 															fire.getWorld().playEffect(fire.getLocation(), Effect.STEP_SOUND, fire.getType());
+															SlimefunStartup.instance.logRemoveal(
+																	p.getName()
+																	,fire.getLocation()
+																	,fire.getType()
+																	,fire.getBlockData()
+															);
 															fire.setType(Material.AIR);
 														}
 													}
@@ -1617,6 +1632,12 @@ public class SlimefunSetup {
 								for (ItemStack drop: b.getBlock().getDrops()) {
 									b.getWorld().dropItemNaturally(b, drop);
 								}
+								SlimefunStartup.instance.logRemoveal(
+										e.getPlayer().getName()
+										,b.getBlock().getLocation()
+										,b.getBlock().getType()
+										,b.getBlock().getBlockData()
+								);
 								b.getBlock().setType(Material.AIR);
 							}
 						}
@@ -1848,6 +1869,12 @@ public class SlimefunSetup {
 									ItemStack item =  new ItemStack(MaterialHelper.getWoodFromLog(log.getType()), 8);
 									log.getWorld().dropItemNaturally(log.getLocation(), item);
 									log.getWorld().playEffect(log.getLocation(), Effect.STEP_SOUND, log.getType());
+									SlimefunStartup.instance.logRemoveal(
+											p.getName()
+											,log.getLocation()
+											,log.getType()
+											,log.getBlockData()
+									);
 									log.setType(Material.AIR); 
 								}
 							}
@@ -2112,15 +2139,33 @@ public class SlimefunSetup {
 											}
 										}
 										else if (b.getType().equals(Material.PLAYER_HEAD)) {
+											SlimefunStartup.instance.logRemoveal(
+													e.getPlayer().getName()
+													,e.getBlock().getLocation()
+													,e.getBlock().getType()
+													,e.getBlock().getBlockData()
+											);
 											b.breakNaturally();
 										}
 										else if (b.getType().name().endsWith("_SHULKER_BOX")) {
+											SlimefunStartup.instance.logRemoveal(
+													e.getPlayer().getName()
+													,e.getBlock().getLocation()
+													,e.getBlock().getType()
+													,e.getBlock().getBlockData()
+											);
 											b.breakNaturally();
 										}
 										else {
 											for (ItemStack drop: b.getDrops()) {
 												b.getWorld().dropItemNaturally(b.getLocation(), (b.getType().toString().endsWith("_ORE") && !b.getType().equals(Material.IRON_ORE) && !b.getType().equals(Material.GOLD_ORE)) ? new CustomItem(drop, fortune): drop);
 											}
+											SlimefunStartup.instance.logRemoveal(
+													e.getPlayer().getName()
+													,e.getBlock().getLocation()
+													,e.getBlock().getType()
+													,e.getBlock().getBlockData()
+											);
 											b.setType(Material.AIR);
 										}
 										if (damageOnUse) {
@@ -2708,7 +2753,19 @@ public class SlimefunSetup {
 						SlimefunItem sfItem = SlimefunItem.getByItem(e.getItem());
 						if (sfItem != null) {
 							if (!SlimefunItem.blockhandler.containsKey(sfItem.getID())) {
+								SlimefunStartup.instance.logRemoveal(
+										Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(block.getLocation(),"owner"))).getName()
+										,e.getBlock().getLocation()
+										,e.getBlock().getType()
+										,e.getBlock().getBlockData()
+								);
 								block.setType(e.getItem().getType());
+								SlimefunStartup.instance.logPlacement(
+										Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(block.getLocation(),"owner"))).getName()
+										,e.getBlock().getLocation()
+										,e.getItem().getType()
+										,e.getBlock().getBlockData()
+								);
 								BlockStorage.store(block, sfItem.getID());
 								block.getWorld().playEffect(block.getLocation(), Effect.STEP_SOUND, e.getItem().getType());
 								if (d.getInventory().containsAtLeast(e.getItem(), 2)) d.getInventory().removeItem(new CustomItem(e.getItem(), 1));
@@ -2720,7 +2777,19 @@ public class SlimefunSetup {
 							}
 						}
 						else {
+							SlimefunStartup.instance.logRemoveal(
+									Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(block.getLocation(),"owner"))).getName()
+									,e.getBlock().getLocation()
+									,e.getBlock().getType()
+									,e.getBlock().getBlockData()
+							);
 							block.setType(e.getItem().getType());
+							SlimefunStartup.instance.logRemoveal(
+									Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(block.getLocation(),"owner"))).getName()
+									,e.getBlock().getLocation()
+									,e.getBlock().getType()
+									,e.getBlock().getBlockData()
+							);
 							block.getWorld().playEffect(block.getLocation(), Effect.STEP_SOUND, e.getItem().getType());
 							if (d.getInventory().containsAtLeast(e.getItem(), 2)) d.getInventory().removeItem(new CustomItem(e.getItem(), 1));
 							else {
