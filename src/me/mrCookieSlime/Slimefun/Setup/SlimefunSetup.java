@@ -675,7 +675,7 @@ public class SlimefunSetup {
 								else if (SlimefunStartup.chance(100, (Integer) Slimefun.getItemValue("GOLD_PAN", "chance.CLAY"))) drops.add(new ItemStack(Material.CLAY_BALL));
 								else if (SlimefunStartup.chance(100, (Integer) Slimefun.getItemValue("GOLD_PAN", "chance.FLINT"))) drops.add(new ItemStack(Material.FLINT));
 								e.getClickedBlock().getWorld().playEffect(e.getClickedBlock().getLocation(), Effect.STEP_SOUND, e.getClickedBlock().getType());
-							SlimefunStartup.instance.logRemoveal(
+								SlimefunStartup.instance.logRemoveal(
 									e.getPlayer().getName()
 									,e.getClickedBlock().getLocation()
 									,e.getClickedBlock().getType()
@@ -767,28 +767,31 @@ public class SlimefunSetup {
 															} 
 															else {
 																Messages.local.sendTranslation(p, "machines.ignition-chamber-no-flint", true);
-																
+																if(CSCoreLib.getLib().getProtectionManager().canBuild(p.getUniqueId(),b)) {
+																	Block fire = b.getRelative(BlockFace.DOWN).getRelative(BlockFace.DOWN);
+																	fire.getWorld().playEffect(fire.getLocation(), Effect.STEP_SOUND, fire.getType());
+																	SlimefunStartup.instance.logRemoveal(
+																			p.getName()
+																			, fire.getLocation()
+																			, fire.getType()
+																			, fire.getBlockData()
+																	);
+																	fire.setType(Material.AIR);
+																}
+															}
+														} 
+														else {
+															if(CSCoreLib.getLib().getProtectionManager().canBuild(p.getUniqueId(),b)) {
 																Block fire = b.getRelative(BlockFace.DOWN).getRelative(BlockFace.DOWN);
 																fire.getWorld().playEffect(fire.getLocation(), Effect.STEP_SOUND, fire.getType());
 																SlimefunStartup.instance.logRemoveal(
 																		p.getName()
-																		,fire.getLocation()
-																		,fire.getType()
-																		,fire.getBlockData()
+																		, fire.getLocation()
+																		, fire.getType()
+																		, fire.getBlockData()
 																);
 																fire.setType(Material.AIR);
 															}
-														} 
-														else {
-															Block fire = b.getRelative(BlockFace.DOWN).getRelative(BlockFace.DOWN);
-															fire.getWorld().playEffect(fire.getLocation(), Effect.STEP_SOUND, fire.getType());
-															SlimefunStartup.instance.logRemoveal(
-																	p.getName()
-																	,fire.getLocation()
-																	,fire.getType()
-																	,fire.getBlockData()
-															);
-															fire.setType(Material.AIR);
 														}
 													}
 												}
