@@ -27,7 +27,7 @@ public class CargoCraftingNode extends SlimefunItem {
 	public CargoCraftingNode(Category category, ItemStack item, String name, RecipeType recipeType, ItemStack[] recipe) {
 		super(category, item, name, recipeType, recipe);
 		
-		new BlockMenuPreset(name, "&3Input Node") {
+		new BlockMenuPreset(name, "&3s合成节点") {
 			
 			@Override
 			public void init() {
@@ -111,7 +111,7 @@ public class CargoCraftingNode extends SlimefunItem {
 			);
 		}
 
-		preset.addItem(2, new CustomItem(new ItemStack(Material.CRAFTING_TABLE), "&eRecipe", "", "&bPut in the Recipe you want to craft"),
+		preset.addItem(2, new CustomItem(new ItemStack(Material.CRAFTING_TABLE), "&e配方", "", "&b将你像合成物品的配方放入这里"),
 			(p, slot, item, action) -> false
 		);
 	}

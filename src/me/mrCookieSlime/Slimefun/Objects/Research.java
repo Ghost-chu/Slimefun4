@@ -364,11 +364,11 @@ public class Research {
 		else progress = "&a" + progress + " &r% ";
 
 		sender.sendMessage("");
-		sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&7Statistics for Player: &b" + p.getName()));
+		sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&7玩家统计: &b" + p.getName()));
 		sender.sendMessage("");
-		sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&7Title: &b" + getTitle(p, researched)));
-		sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&7Research Progress: " + progress + "&e(" + researched.size() + " / " + list().size() + ")"));
-		sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&7Total XP Levels spent: &b" + levels));
+		sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&7标题: &b" + getTitle(p, researched)));
+		sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&7研究进度: " + progress + "&e(" + researched.size() + " / " + list().size() + ")"));
+		sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&7共计花费了经验等级: &b" + levels));
 	}
 
 	/**

@@ -46,7 +46,7 @@ public abstract class AutomatedCraftingChamber extends SlimefunItem {
 	public AutomatedCraftingChamber(Category category, ItemStack item, String name, RecipeType recipeType, ItemStack[] recipe) {
 		super(category, item, name, recipeType, recipe);
 		
-		new BlockMenuPreset(name, "&6Automated Crafting Chamber") {
+		new BlockMenuPreset(name, "&6z自动合成室") {
 			
 			@Override
 			public void init() {
@@ -56,7 +56,7 @@ public abstract class AutomatedCraftingChamber extends SlimefunItem {
 			@Override
 			public void newInstance(final BlockMenu menu, final Block b) {
 				if (!BlockStorage.hasBlockInfo(b) || BlockStorage.getLocationInfo(b.getLocation(), "enabled") == null || BlockStorage.getLocationInfo(b.getLocation(), "enabled").equals("false")) {
-					menu.replaceExistingItem(6, new CustomItem(new ItemStack(Material.GUNPOWDER), "&7Enabled: &4\u2718", "", "&e> Click to enable this Machine"));
+					menu.replaceExistingItem(6, new CustomItem(new ItemStack(Material.GUNPOWDER), "&7启用: &4\u2718", "", "&e> 点击启用机器"));
 					menu.addMenuClickHandler(6, (p, slot, item, action) -> {
 						BlockStorage.addBlockInfo(b, "enabled", "true");
 						newInstance(menu, b);
@@ -64,7 +64,7 @@ public abstract class AutomatedCraftingChamber extends SlimefunItem {
 					});
 				}
 				else {
-					menu.replaceExistingItem(6, new CustomItem(new ItemStack(Material.REDSTONE), "&7Enabled: &2\u2714", "", "&e> Click to disable this Machine"));
+					menu.replaceExistingItem(6, new CustomItem(new ItemStack(Material.REDSTONE), "&7启用: &2\u2714", "", "&e> 点击禁用机器"));
 					menu.addMenuClickHandler(6, (p, slot, item, action) -> {
 						BlockStorage.addBlockInfo(b, "enabled", "false");
 						newInstance(menu, b);
@@ -183,7 +183,7 @@ public abstract class AutomatedCraftingChamber extends SlimefunItem {
 		int size = BlockStorage.getInventory(b).toInventory().getSize();
 		Inventory inv = Bukkit.createInventory(null, size);
 		for (int i = 0; i < size; i++) {
-			inv.setItem(i, new CustomItem(Material.COMMAND_BLOCK, " &4ALL YOUR PLACEHOLDERS ARE BELONG TO US"));
+			inv.setItem(i, new CustomItem(Material.COMMAND_BLOCK, " &4你的所有占位符都属于我们"));
 		}
 		for (int slot : getOutputSlots()) {
 			inv.setItem(slot, BlockStorage.getInventory(b).getItemInSlot(slot));

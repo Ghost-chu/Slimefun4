@@ -112,7 +112,7 @@ public class FluidPump extends SlimefunItem{
 	}
 
 	public String getInventoryTitle() {
-		return "&9Fluid Pump";
+		return "&9流体泵";
 	}
 	
 	protected void tick(Block b) {
@@ -190,7 +190,7 @@ public class FluidPump extends SlimefunItem{
 		int size = BlockStorage.getInventory(b).toInventory().getSize();
 		Inventory inv = Bukkit.createInventory(null, size);
 		for (int i = 0; i < size; i++) {
-			inv.setItem(i, new CustomItem(Material.COMMAND_BLOCK, " &4ALL YOUR PLACEHOLDERS ARE BELONG TO US"));
+			inv.setItem(i, new CustomItem(Material.COMMAND_BLOCK, " &4所有的占位符都属于我们"));
 		}
 		for (int slot : getOutputSlots()) {
 			inv.setItem(slot, BlockStorage.getInventory(b).getItemInSlot(slot));

@@ -33,7 +33,7 @@ public class XPCollector extends SlimefunItem {
 	public XPCollector(Category category, ItemStack item, String name, RecipeType recipeType, ItemStack[] recipe) {
 		super(category, item, name, recipeType, recipe);
 		
-		new BlockMenuPreset(name, "&aEXP Collector") {
+		new BlockMenuPreset(name, "&a经验收集器") {
 			
 			@Override
 			public void init() {
@@ -84,7 +84,7 @@ public class XPCollector extends SlimefunItem {
 		int size = BlockStorage.getInventory(b).toInventory().getSize();
 		Inventory inv = Bukkit.createInventory(null, size);
 		for (int i = 0; i < size; i++) {
-			inv.setItem(i, new CustomItem(Material.COMMAND_BLOCK, " &4ALL YOUR PLACEHOLDERS ARE BELONG TO US"));
+			inv.setItem(i, new CustomItem(Material.COMMAND_BLOCK, " &4所有的占位符都属于我们"));
 		}
 		for (int slot : getOutputSlots()) {
 			inv.setItem(slot, BlockStorage.getInventory(b).getItemInSlot(slot));
@@ -162,9 +162,9 @@ public class XPCollector extends SlimefunItem {
 					
 					int withdrawn = 0;
 					for (int level = 0; level < getEXP(b); level = level + 10) {
-						if (fits(b, new CustomItem(Material.EXPERIENCE_BOTTLE, "&aFlask of Knowledge"))) {
+						if (fits(b, new CustomItem(Material.EXPERIENCE_BOTTLE, "&a罐装经验"))) {
 							withdrawn = withdrawn + 10;
-							pushItems(b, new CustomItem(Material.EXPERIENCE_BOTTLE, "&aFlask of Knowledge"));
+							pushItems(b, new CustomItem(Material.EXPERIENCE_BOTTLE, "&a罐装经验"));
 						}
 					}
 					BlockStorage.addBlockInfo(b, "stored-exp", String.valueOf(xp - withdrawn));

@@ -28,7 +28,7 @@ public class SlimefunItems {
 	public static ItemStack INFERNAL_BONEMEAL = new CustomItem(Material.BONE_MEAL, "&4超级骨粉", "", "&c甚至能够加速", "&c地狱疣的生长");
 
 	/*		 Gadgets 		*/
-	public static ItemStack GOLD_PAN = new CustomItem(Material.BOWL, "&6黄金锅", "&a&o可以得到各种各样的好东西...", "", "&7&e右键单击&7 从沙砾中捞出各种东西");
+	public static ItemStack GOLD_PAN = new CustomItem(Material.BOWL, "&6淘金盘", "&a&o可以得到各种各样的好东西...", "", "&7&e右键单击&7 从沙砾中捞出各种东西");
 	public static ItemStack PARACHUTE = new CustomArmor(new CustomItem(Material.LEATHER_CHESTPLATE, "&r&l降落伞", "", "&7按住 &eShift&7 来使用"), Color.WHITE);
 	public static ItemStack GRAPPLING_HOOK = new CustomItem(Material.LEAD, "&6抓钩", "", "&7&e右键单击&7 来使用");
 	public static ItemStack SOLAR_HELMET = new CustomItem(Material.IRON_HELMET, "&b太阳能头盔", "", "&a&o给物品和盔甲充电");

@@ -126,25 +126,25 @@ public class ReactorAccessPort extends SlimefunItem {
 			);
 		}
 		
-		preset.addItem(1, new CustomItem(SlimefunItems.URANIUM, "&7Fuel Slot", "", "&rThis Slot accepts radioactive Fuel such as:", "&2Uranium &ror &aNeptunium"),
+		preset.addItem(1, new CustomItem(SlimefunItems.URANIUM, "&7燃料槽", "", "&r此槽位接受放射性燃料:", "&2铀 &r或 &a镎"),
 			(p, slot, item, action) -> false
 		);
 		
-		preset.addItem(22, new CustomItem(SlimefunItems.PLUTONIUM, "&7Byproduct Slot", "", "&rThis Slot contains the Reactor's Byproduct", "&rsuch as &aNeptunium &ror &7Plutonium"),
+		preset.addItem(22, new CustomItem(SlimefunItems.PLUTONIUM, "&副产品槽", "", "&r此槽包含反应堆的副产品", "&r例如 &a镎 &r或 &7钚"),
 			(p, slot, item, action) -> false
 		);
 		
-		preset.addItem(7, new CustomItem(SlimefunItems.REACTOR_COOLANT_CELL, "&bCoolant Slot", "", "&rThis Slot accepts Coolant Cells", "&4Without any Coolant Cells, your Reactor", "&4will explode"),
+		preset.addItem(7, new CustomItem(SlimefunItems.REACTOR_COOLANT_CELL, "&b冷却槽", "", "&r此槽位接受冷却单元", "&4如果没有任何冷却单元", "&4你的反应堆会在一声巨响后灰飞烟灭"),
 			(p, slot, item, action) -> false
 		);
 		
-		preset.addItem(7, new CustomItem(SlimefunItems.REACTOR_COOLANT_CELL, "&bCoolant Slot", "", "&rThis Slot accepts Coolant Cells", "&4Without any Coolant Cells, your Reactor", "&4will explode"),
+		preset.addItem(7, new CustomItem(SlimefunItems.REACTOR_COOLANT_CELL, "&b冷却槽", "", "&r此槽位接受冷却单元", "&4如果没有任何冷却单元", "&4你的反应堆会在一声巨响后灰飞烟灭"),
 			(p, slot, item, action) -> false
 		);
 	}
 	
 	public String getInventoryTitle() {
-		return "&2Reactor Access Port";
+		return "&2反应堆访问端口";
 	}
 
 	public int[] getInputSlots() {
@@ -167,7 +167,7 @@ public class ReactorAccessPort extends SlimefunItem {
 		int size = BlockStorage.getInventory(l).toInventory().getSize();
 		Inventory inv = Bukkit.createInventory(null, size);
 		for (int i = 0; i < size; i++) {
-			inv.setItem(i, new CustomItem(Material.COMMAND_BLOCK, " &4ALL YOUR PLACEHOLDERS ARE BELONG TO US"));
+			inv.setItem(i, new CustomItem(Material.COMMAND_BLOCK, " &4所有的占位符都属于我们"));
 		}
 		for (int slot : getOutputSlots()) {
 			inv.setItem(slot, BlockStorage.getInventory(l).getItemInSlot(slot));

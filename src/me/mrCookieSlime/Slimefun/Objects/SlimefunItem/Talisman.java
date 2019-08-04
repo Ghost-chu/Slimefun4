@@ -109,12 +109,12 @@ public class Talisman extends SlimefunItem {
 
     public ItemStack upgrade() {
         List<String> lore = new ArrayList<>();
-        lore.add("&7&oEnder Infused");
+        lore.add("&7&o末影注入升级");
         lore.add("");
         for (String line : getItem().getItemMeta().getLore()) {
             lore.add(line);
         }
-        return new CustomItem(getItem().getType(), "&5Ender " + ChatColor.stripColor(getItem().getItemMeta().getDisplayName()), lore.toArray(new String[lore.size()]));
+        return new CustomItem(getItem().getType(), "&5末影 " + ChatColor.stripColor(getItem().getItemMeta().getDisplayName()), lore.toArray(new String[lore.size()]));
     }
 
     @Override
@@ -128,11 +128,11 @@ public class Talisman extends SlimefunItem {
         EnderTalisman talisman = (EnderTalisman) SlimefunItem.getByItem(upgrade());
         Research research = Research.getByID(112);
         if (talisman != null) {
-            Slimefun.addOfficialWikiPage(talisman.getID(), "Talismans");
+            Slimefun.addOfficialWikiPage(talisman.getID(), "护身符");
             if (research != null) talisman.bindToResearch(research);
         }
 
-        Slimefun.addOfficialWikiPage(getID(), "Talismans");
+        Slimefun.addOfficialWikiPage(getID(), "护身符");
     }
 
     private static boolean isTalismanMessage(Talisman talisman){
