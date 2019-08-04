@@ -478,20 +478,20 @@ public class SlimefunItems {
 	public static ItemStack COAL_GENERATOR = null;
 	public static ItemStack LAVA_GENERATOR = null;
 	
-	public static ItemStack ELECTRIC_FURNACE = new CustomItem(Material.FURNACE, "&cElectric Furnace", "", "&e基础机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &74 J/s");
-	public static ItemStack ELECTRIC_FURNACE_2 = new CustomItem(Material.FURNACE, "&cElectric Furnace &7- &eII", "", "&aMedium Machine", "&8\u21E8 &7速度: 2x", "&8\u21E8 &e\u26A1 &76 J/s");
-	public static ItemStack ELECTRIC_FURNACE_3 = new CustomItem(Material.FURNACE, "&cElectric Furnace &7- &eIII", "", "&aMedium Machine", "&8\u21E8 &7速度: 4x", "&8\u21E8 &e\u26A1 &710 J/s");
+	public static ItemStack ELECTRIC_FURNACE = new CustomItem(Material.FURNACE, "&c电炉", "", "&e基础机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &74 J/s");
+	public static ItemStack ELECTRIC_FURNACE_2 = new CustomItem(Material.FURNACE, "&c电炉 &7- &eII", "", "&a中级机器", "&8\u21E8 &7速度: 2x", "&8\u21E8 &e\u26A1 &76 J/s");
+	public static ItemStack ELECTRIC_FURNACE_3 = new CustomItem(Material.FURNACE, "&c电炉 &7- &eIII", "", "&a中级机器", "&8\u21E8 &7速度: 4x", "&8\u21E8 &e\u26A1 &710 J/s");
 	
-	public static ItemStack ELECTRIC_ORE_GRINDER = new CustomItem(Material.FURNACE, "&cElectric Ore Grinder", "","&rWorks as an Ore Crusher and Grind Stone", "", "&6高级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &712 J/s");
-	public static ItemStack ELECTRIC_ORE_GRINDER_2 = new CustomItem(Material.FURNACE, "&cElectric Ore Grinder &7(&eII&7)", "","&rWorks as an Ore Crusher and Grind Stone", "", "&4游戏后期机器", "&8\u21E8 &7速度: 4x", "&8\u21E8 &e\u26A1 &730 J/s");
-	public static ItemStack ELECTRIC_INGOT_PULVERIZER = new CustomItem(Material.FURNACE, "&cElectric Ingot Pulverizer", "", "&rPulverizes Ingots into Dust", "", "&aMedium Machine", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &714 J/s");
-	public static ItemStack AUTO_ENCHANTER = new CustomItem(Material.ENCHANTING_TABLE, "&5Auto Enchanter", "", "&aMedium Machine", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &718 J/s");
-	public static ItemStack AUTO_DISENCHANTER = new CustomItem(Material.ENCHANTING_TABLE, "&5Auto Disenchanter", "", "&aMedium Machine", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &718 J/s");
-	public static ItemStack AUTO_ANVIL = new CustomItem(Material.IRON_BLOCK, "&7Auto Anvil", "", "&6高级机器", "&8\u21E8 &7Repair Factor: 10%", "&8\u21E8 &e\u26A1 &724 J/s");
-	public static ItemStack AUTO_ANVIL_2 = new CustomItem(Material.IRON_BLOCK, "&7Auto Anvil Mk.II", "", "&4游戏后期机器", "&8\u21E8 &7Repair Factor: 25%", "&8\u21E8 &e\u26A1 &732 J/s");
+	public static ItemStack ELECTRIC_ORE_GRINDER = new CustomItem(Material.FURNACE, "&c电动矿石粉碎机", "","&r和矿石粉碎机与研磨石一样", "", "&6高级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &712 J/s");
+	public static ItemStack ELECTRIC_ORE_GRINDER_2 = new CustomItem(Material.FURNACE, "&c电动矿石粉碎机 &7(&eII&7)", "","&r和矿石粉碎机与研磨石一样", "", "&4游戏后期机器", "&8\u21E8 &7速度: 4x", "&8\u21E8 &e\u26A1 &730 J/s");
+	public static ItemStack ELECTRIC_INGOT_PULVERIZER = new CustomItem(Material.FURNACE, "&c电锭粉碎机", "", "&r将锭粉碎成粉尘", "", "&a中级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &714 J/s");
+	public static ItemStack AUTO_ENCHANTER = new CustomItem(Material.ENCHANTING_TABLE, "&5自动附魔器", "", "&a中级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &718 J/s");
+	public static ItemStack AUTO_DISENCHANTER = new CustomItem(Material.ENCHANTING_TABLE, "&5自动祛魔器", "", "&a中级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &718 J/s");
+	public static ItemStack AUTO_ANVIL = new CustomItem(Material.IRON_BLOCK, "&7自动铁砧", "", "&6高级机器", "&8\u21E8 &7修复率: 10%", "&8\u21E8 &e\u26A1 &724 J/s");
+	public static ItemStack AUTO_ANVIL_2 = new CustomItem(Material.IRON_BLOCK, "&7自动铁砧 Mk.II", "", "&4游戏后期机器", "&8\u21E8 &7修复率: 25%", "&8\u21E8 &e\u26A1 &732 J/s");
 	
-	public static ItemStack BIO_REACTOR = new CustomItem(Material.LIME_TERRACOTTA, "&2Bio Reactor", "", "&6Average Generator", "&8\u21E8 &e\u26A1 &7128 J 缓冲", "&8\u21E8 &e\u26A1 &78 J/s");
-	public static ItemStack MULTIMETER = new CustomItem(Material.CLOCK, "&eMultimeter", "", "&rMeasures the Amount of stored", "&rEnergy in a Block");
+	public static ItemStack BIO_REACTOR = new CustomItem(Material.LIME_TERRACOTTA, "&2生物反应堆", "", "&6平衡发电机", "&8\u21E8 &e\u26A1 &7128 J 缓冲", "&8\u21E8 &e\u26A1 &78 J/s");
+	public static ItemStack MULTIMETER = new CustomItem(Material.CLOCK, "&e万用表", "", "&r测量方块内储存的能量");
 	public static ItemStack SMALL_CAPACITOR = null, MEDIUM_CAPACITOR = null, BIG_CAPACITOR = null, LARGE_CAPACITOR = null, CARBONADO_EDGED_CAPACITOR = null;
 	
 	/*		Robots				*/
