@@ -372,27 +372,27 @@ public class SlimefunItems {
 	public static ItemStack JUICER = new CustomItem(Material.GLASS_BOTTLE, "&aJuicer", "", "&a&oAllows you to create delicious Juice");
 
 	public static ItemStack SOLAR_PANEL = new CustomItem(Material.DAYLIGHT_DETECTOR, "&bSolar Panel", "", "&a&oTransforms Sunlight to Energy");
-	public static ItemStack SOLAR_ARRAY = new CustomItem(Material.DAYLIGHT_DETECTOR, "&bSolar Array", "", "&a&oTransforms Sunlight to Energy");
-	public static ItemStack DIGITAL_MINER = new CustomItem(Material.IRON_PICKAXE, "&bDigital Miner", "", "&a&oDigs out everything!");
-	public static ItemStack ADVANCED_DIGITAL_MINER = new CustomItem(Material.DIAMOND_PICKAXE, "&6Advanced Digital Miner", "", "&a&oDigs out everything!", "&a&oAutomatically crushes your Ores");
-	public static ItemStack AUTOMATED_PANNING_MACHINE = new CustomItem(Material.BOWL, "&aAutomated Panning Machine", "", "&a&oA MultiBlock Version of the Gold Pan");
+	public static ItemStack SOLAR_ARRAY = new CustomItem(Material.DAYLIGHT_DETECTOR, "&b太阳能阵列", "", "&a&oTransforms Sunlight to Energy");
+	public static ItemStack DIGITAL_MINER = new CustomItem(Material.IRON_PICKAXE, "&b数字矿工", "", "&a&o挖掘一切!");
+	public static ItemStack ADVANCED_DIGITAL_MINER = new CustomItem(Material.DIAMOND_PICKAXE, "&6高级数字矿工", "", "&a&o挖掘一切!", "&a&o自动粉碎你的矿石");
+	public static ItemStack AUTOMATED_PANNING_MACHINE = new CustomItem(Material.BOWL, "&a自动平移机", "", "&a&o淘金盘的多方块版本");
 
-	public static ItemStack HOLOGRAM_PROJECTOR = new CustomItem(Material.QUARTZ_SLAB, "&bHologram Projector", "", "&rProjects an Editable Hologram");
+	public static ItemStack HOLOGRAM_PROJECTOR = new CustomItem(Material.QUARTZ_SLAB, "&b全息投影仪", "", "&r投射可编辑的全息图");
 
 	/*		 Enhanced Furnaces 		*/
-	public static ItemStack ENHANCED_FURNACE = new CustomItem(Material.FURNACE, "&7Enhanced Furnace - &eI", "", "&7Processing 速度: &e1x", "&7Fuel Efficiency: &e1x", "&7Luck Multiplier: &e1x");
-	public static ItemStack ENHANCED_FURNACE_2 = new CustomItem(Material.FURNACE, "&7Enhanced Furnace - &eII", "", "&7Processing 速度: &e2x", "&7Fuel Efficiency: &e1x", "&7Luck Multiplier: &e1x");
-	public static ItemStack ENHANCED_FURNACE_3 = new CustomItem(Material.FURNACE, "&7Enhanced Furnace - &eIII", "", "&7Processing 速度: &e2x", "&7Fuel Efficiency: &e2x", "&7Luck Multiplier: &e1x");
-	public static ItemStack ENHANCED_FURNACE_4 = new CustomItem(Material.FURNACE, "&7Enhanced Furnace - &eIV", "", "&7Processing 速度: &e3x", "&7Fuel Efficiency: &e2x", "&7Luck Multiplier: &e1x");
-	public static ItemStack ENHANCED_FURNACE_5 = new CustomItem(Material.FURNACE, "&7Enhanced Furnace - &eV", "", "&7Processing 速度: &e3x", "&7Fuel Efficiency: &e2x", "&7Luck Multiplier: &e2x");
-	public static ItemStack ENHANCED_FURNACE_6 = new CustomItem(Material.FURNACE, "&7Enhanced Furnace - &eVI", "", "&7Processing 速度: &e3x", "&7Fuel Efficiency: &e3x", "&7Luck Multiplier: &e2x");
-	public static ItemStack ENHANCED_FURNACE_7 = new CustomItem(Material.FURNACE, "&7Enhanced Furnace - &eVII", "", "&7Processing 速度: &e4x", "&7Fuel Efficiency: &e3x", "&7Luck Multiplier: &e2x");
-	public static ItemStack ENHANCED_FURNACE_8 = new CustomItem(Material.FURNACE, "&7Enhanced Furnace - &eVIII", "", "&7Processing 速度: &e4x", "&7Fuel Efficiency: &e4x", "&7Luck Multiplier: &e2x");
-	public static ItemStack ENHANCED_FURNACE_9 = new CustomItem(Material.FURNACE, "&7Enhanced Furnace - &eIX", "", "&7Processing 速度: &e5x", "&7Fuel Efficiency: &e4x", "&7Luck Multiplier: &e2x");
-	public static ItemStack ENHANCED_FURNACE_10 = new CustomItem(Material.FURNACE, "&7Enhanced Furnace - &eX", "", "&7Processing 速度: &e5x", "&7Fuel Efficiency: &e5x", "&7Luck Multiplier: &e2x");
-	public static ItemStack ENHANCED_FURNACE_11 = new CustomItem(Material.FURNACE, "&7Enhanced Furnace - &eXI", "", "&7Processing 速度: &e5x", "&7Fuel Efficiency: &e5x", "&7Luck Multiplier: &e3x");
-	public static ItemStack REINFORCED_FURNACE = new CustomItem(Material.FURNACE, "&7Reinforced Furnace", "", "&7Processing 速度: &e10x", "&7Fuel Efficiency: &e10x", "&7Luck Multiplier: &e3x");
-	public static ItemStack CARBONADO_EDGED_FURNACE = new CustomItem(Material.FURNACE, "&7Carbonado Edged Furnace", "", "&7Processing 速度: &e20x", "&7Fuel Efficiency: &e10x", "&7Luck Multiplier: &e3x");
+	public static ItemStack ENHANCED_FURNACE = new CustomItem(Material.FURNACE, "&7增强熔炉 - &eI", "", "&7处理速度: &e1x", "&7燃料效率: &e1x", "&7幸运倍增器: &e1x");
+	public static ItemStack ENHANCED_FURNACE_2 = new CustomItem(Material.FURNACE, "&7增强熔炉 - &eII", "", "&7处理速度: &e2x", "&7燃料效率: &e1x", "&7幸运倍增器: &e1x");
+	public static ItemStack ENHANCED_FURNACE_3 = new CustomItem(Material.FURNACE, "&7增强熔炉 - &eIII", "", "&7处理速度: &e2x", "&7燃料效率: &e2x", "&7幸运倍增器: &e1x");
+	public static ItemStack ENHANCED_FURNACE_4 = new CustomItem(Material.FURNACE, "&7增强熔炉 - &eIV", "", "&7处理速度: &e3x", "&7燃料效率: &e2x", "&7幸运倍增器: &e1x");
+	public static ItemStack ENHANCED_FURNACE_5 = new CustomItem(Material.FURNACE, "&7增强熔炉 - &eV", "", "&7处理速度: &e3x", "&7燃料效率: &e2x", "&7幸运倍增器: &e2x");
+	public static ItemStack ENHANCED_FURNACE_6 = new CustomItem(Material.FURNACE, "&7增强熔炉 - &eVI", "", "&7处理速度: &e3x", "&7燃料效率: &e3x", "&7幸运倍增器: &e2x");
+	public static ItemStack ENHANCED_FURNACE_7 = new CustomItem(Material.FURNACE, "&7增强熔炉 - &eVII", "", "&7处理速度: &e4x", "&7燃料效率: &e3x", "&7幸运倍增器: &e2x");
+	public static ItemStack ENHANCED_FURNACE_8 = new CustomItem(Material.FURNACE, "&7增强熔炉 - &eVIII", "", "&7处理速度: &e4x", "&7燃料效率: &e4x", "&7幸运倍增器: &e2x");
+	public static ItemStack ENHANCED_FURNACE_9 = new CustomItem(Material.FURNACE, "&7增强熔炉 - &eIX", "", "&7处理速度: &e5x", "&7燃料效率: &e4x", "&7幸运倍增器: &e2x");
+	public static ItemStack ENHANCED_FURNACE_10 = new CustomItem(Material.FURNACE, "&7增强熔炉 - &eX", "", "&7处理速度: &e5x", "&7燃料效率: &e5x", "&7幸运倍增器: &e2x");
+	public static ItemStack ENHANCED_FURNACE_11 = new CustomItem(Material.FURNACE, "&7增强熔炉 - &eXI", "", "&7处理速度: &e5x", "&7燃料效率: &e5x", "&7幸运倍增器: &e3x");
+	public static ItemStack REINFORCED_FURNACE = new CustomItem(Material.FURNACE, "&7强化熔炉", "", "&7处理速度: &e10x", "&7燃料效率: &e10x", "&7幸运倍增器: &e3x");
+	public static ItemStack CARBONADO_EDGED_FURNACE = new CustomItem(Material.FURNACE, "&7黑晶镶边熔炉", "", "&7处理速度: &e20x", "&7燃料效率: &e10x", "&7幸运倍增器: &e3x");
 
 	public static ItemStack BLOCK_PLACER = new CustomItem(Material.DISPENSER, "&a方块放置机", "", "&r所有在放置机内的方块", "&r都会被自动放置");
 
@@ -404,10 +404,10 @@ public class SlimefunItems {
 	public static ItemStack SOULBOUND_SHOVEL = new CustomItem(Material.DIAMOND_SHOVEL, "&c灵魂绑定铲");
 	public static ItemStack SOULBOUND_HOE = new CustomItem(Material.DIAMOND_HOE, "&c灵魂绑定锄");
 
-	public static ItemStack SOULBOUND_HELMET = new CustomItem(Material.DIAMOND_HELMET, "&cSoulbound头盔");
-	public static ItemStack SOULBOUND_CHESTPLATE = new CustomItem(Material.DIAMOND_CHESTPLATE, "&cSoulbound胸甲");
-	public static ItemStack SOULBOUND_LEGGINGS = new CustomItem(Material.DIAMOND_LEGGINGS, "&cSoulbound护腿");
-	public static ItemStack SOULBOUND_BOOTS = new CustomItem(Material.DIAMOND_BOOTS, "&cSoulbound靴");
+	public static ItemStack SOULBOUND_HELMET = new CustomItem(Material.DIAMOND_HELMET, "&c灵魂绑定头盔");
+	public static ItemStack SOULBOUND_CHESTPLATE = new CustomItem(Material.DIAMOND_CHESTPLATE, "&c灵魂绑定胸甲");
+	public static ItemStack SOULBOUND_LEGGINGS = new CustomItem(Material.DIAMOND_LEGGINGS, "&c灵魂绑定护腿");
+	public static ItemStack SOULBOUND_BOOTS = new CustomItem(Material.DIAMOND_BOOTS, "&c灵魂绑定靴");
 
 	/*		Runes				*/
 	public static ItemStack BLANK_RUNE = null;
@@ -422,58 +422,58 @@ public class SlimefunItems {
 		ItemStack itemB = new ItemStack(Material.FIREWORK_STAR);
 		FireworkEffectMeta imB = (FireworkEffectMeta) itemB.getItemMeta();
 		imB.setEffect(FireworkEffect.builder().with(Type.BURST).with(Type.BURST).withColor(Color.BLACK).build());
-		imB.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&8Blank Rune"));
+		imB.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&8空符文"));
 		itemB.setItemMeta(imB);
 		BLANK_RUNE = itemB;
 		
 		ItemStack itemA = new ItemStack(Material.FIREWORK_STAR);
 		FireworkEffectMeta imA = (FireworkEffectMeta) itemA.getItemMeta();
 		imA.setEffect(FireworkEffect.builder().with(Type.BURST).withColor(Color.AQUA).build());
-		imA.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&7Ancient Rune &8&l[&b&lAir&8&l]"));
+		imA.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&7古代符文 &8&l[&b&lAir&8&l]"));
 		itemA.setItemMeta(imA);
 		RUNE_AIR = itemA;
 		
 		ItemStack itemW = new ItemStack(Material.FIREWORK_STAR);
 		FireworkEffectMeta imW = (FireworkEffectMeta) itemW.getItemMeta();
 		imW.setEffect(FireworkEffect.builder().with(Type.BURST).withColor(Color.BLUE).build());
-		imW.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&7Ancient Rune &8&l[&1&lWater&8&l]"));
+		imW.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&7古代符文 &8&l[&1&lWater&8&l]"));
 		itemW.setItemMeta(imW);
 		RUNE_WATER = itemW;
 		
 		ItemStack itemF = new ItemStack(Material.FIREWORK_STAR);
 		FireworkEffectMeta imF = (FireworkEffectMeta) itemF.getItemMeta();
 		imF.setEffect(FireworkEffect.builder().with(Type.BURST).withColor(Color.RED).build());
-		imF.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&7Ancient Rune &8&l[&4&lFire&8&l]"));
+		imF.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&7古代符文 &8&l[&4&lFire&8&l]"));
 		itemF.setItemMeta(imF);
 		RUNE_FIRE = itemF;
 		
 		ItemStack itemE = new ItemStack(Material.FIREWORK_STAR);
 		FireworkEffectMeta imE = (FireworkEffectMeta) itemE.getItemMeta();
 		imE.setEffect(FireworkEffect.builder().with(Type.BURST).withColor(Color.ORANGE).build());
-		imE.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&7Ancient Rune &8&l[&c&lEarth&8&l]"));
+		imE.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&7古代符文 &8&l[&c&lEarth&8&l]"));
 		itemE.setItemMeta(imE);
 		RUNE_EARTH = itemE;
 		
 		ItemStack itemN = new ItemStack(Material.FIREWORK_STAR);
 		FireworkEffectMeta imN = (FireworkEffectMeta) itemN.getItemMeta();
 		imN.setEffect(FireworkEffect.builder().with(Type.BURST).withColor(Color.PURPLE).build());
-		imN.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&7Ancient Rune &8&l[&5&lEnder&8&l]"));
+		imN.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&7古代符文 &8&l[&5&lEnder&8&l]"));
 		itemN.setItemMeta(imN);
 		RUNE_ENDER = itemN;
 		
 		ItemStack itemR = new ItemStack(Material.FIREWORK_STAR);
 		FireworkEffectMeta imR = (FireworkEffectMeta) itemR.getItemMeta();
 		imR.setEffect(FireworkEffect.builder().with(Type.BURST).withColor(Color.PURPLE).build());
-		imR.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&7Ancient Rune &8&l[&d&lRainbow&8&l]"));
+		imR.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&7古代符文 &8&l[&d&lRainbow&8&l]"));
 		itemR.setItemMeta(imR);
 		RUNE_RAINBOW = itemR;
 	}
 	
 	/*		Electricity			*/
-	public static ItemStack SOLAR_GENERATOR = new CustomItem(Material.DAYLIGHT_DETECTOR, "&bSolar Generator", "", "&eBasic Generator", "&8\u21E8 &e\u26A1 &70 J 缓冲", "&8\u21E8 &e\u26A1 &74 J/s");
-	public static ItemStack SOLAR_GENERATOR_2 = new CustomItem(Material.DAYLIGHT_DETECTOR, "&cAdvanced Solar Generator", "", "&aMedium Generator", "&8\u21E8 &e\u26A1 &70 J 缓冲", "&8\u21E8 &e\u26A1 &716 J/s");
-	public static ItemStack SOLAR_GENERATOR_3 = new CustomItem(Material.DAYLIGHT_DETECTOR, "&4Carbonado Solar Generator", "", "&4End-Game Generator", "&8\u21E8 &e\u26A1 &70 J 缓冲", "&8\u21E8 &e\u26A1 &764 J/s");
-	public static ItemStack SOLAR_GENERATOR_4 = new CustomItem(Material.DAYLIGHT_DETECTOR, "&eEnergized Solar Generator", "", "&9Works at Night", "", "&4End-Game Generator", "&8\u21E8 &e\u26A1 &70 J 缓冲", "&8\u21E8 &e\u26A1 &7256 J/s (Day)", "&8\u21E8 &e\u26A1 &7128 J/s (Night)");
+	public static ItemStack SOLAR_GENERATOR = new CustomItem(Material.DAYLIGHT_DETECTOR, "&b太阳能发电机", "", "&e基础发电机", "&8\u21E8 &e\u26A1 &70 J 缓冲", "&8\u21E8 &e\u26A1 &74 J/s");
+	public static ItemStack SOLAR_GENERATOR_2 = new CustomItem(Material.DAYLIGHT_DETECTOR, "&c高级太阳能发电机", "", "&a中级发电机", "&8\u21E8 &e\u26A1 &70 J 缓冲", "&8\u21E8 &e\u26A1 &716 J/s");
+	public static ItemStack SOLAR_GENERATOR_3 = new CustomItem(Material.DAYLIGHT_DETECTOR, "&4黑晶太阳能发电机", "", "&4终极发电机", "&8\u21E8 &e\u26A1 &70 J 缓冲", "&8\u21E8 &e\u26A1 &764 J/s");
+	public static ItemStack SOLAR_GENERATOR_4 = new CustomItem(Material.DAYLIGHT_DETECTOR, "&e强化太阳能发电机", "", "&9夜晚也能发电", "", "&4终极发电机", "&8\u21E8 &e\u26A1 &70 J 缓冲", "&8\u21E8 &e\u26A1 &7256 J/s (白天)", "&8\u21E8 &e\u26A1 &7128 J/s (夜晚)");
 	
 	public static ItemStack COAL_GENERATOR = null;
 	public static ItemStack LAVA_GENERATOR = null;
@@ -483,12 +483,12 @@ public class SlimefunItems {
 	public static ItemStack ELECTRIC_FURNACE_3 = new CustomItem(Material.FURNACE, "&c电炉 &7- &eIII", "", "&a中级机器", "&8\u21E8 &7速度: 4x", "&8\u21E8 &e\u26A1 &710 J/s");
 	
 	public static ItemStack ELECTRIC_ORE_GRINDER = new CustomItem(Material.FURNACE, "&c电动矿石粉碎机", "","&r和矿石粉碎机与研磨石一样", "", "&6高级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &712 J/s");
-	public static ItemStack ELECTRIC_ORE_GRINDER_2 = new CustomItem(Material.FURNACE, "&c电动矿石粉碎机 &7(&eII&7)", "","&r和矿石粉碎机与研磨石一样", "", "&4游戏后期机器", "&8\u21E8 &7速度: 4x", "&8\u21E8 &e\u26A1 &730 J/s");
+	public static ItemStack ELECTRIC_ORE_GRINDER_2 = new CustomItem(Material.FURNACE, "&c电动矿石粉碎机 &7(&eII&7)", "","&r和矿石粉碎机与研磨石一样", "", "&4终极机器", "&8\u21E8 &7速度: 4x", "&8\u21E8 &e\u26A1 &730 J/s");
 	public static ItemStack ELECTRIC_INGOT_PULVERIZER = new CustomItem(Material.FURNACE, "&c电锭粉碎机", "", "&r将锭粉碎成粉尘", "", "&a中级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &714 J/s");
 	public static ItemStack AUTO_ENCHANTER = new CustomItem(Material.ENCHANTING_TABLE, "&5自动附魔器", "", "&a中级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &718 J/s");
 	public static ItemStack AUTO_DISENCHANTER = new CustomItem(Material.ENCHANTING_TABLE, "&5自动祛魔器", "", "&a中级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &718 J/s");
 	public static ItemStack AUTO_ANVIL = new CustomItem(Material.IRON_BLOCK, "&7自动铁砧", "", "&6高级机器", "&8\u21E8 &7修复率: 10%", "&8\u21E8 &e\u26A1 &724 J/s");
-	public static ItemStack AUTO_ANVIL_2 = new CustomItem(Material.IRON_BLOCK, "&7自动铁砧 Mk.II", "", "&4游戏后期机器", "&8\u21E8 &7修复率: 25%", "&8\u21E8 &e\u26A1 &732 J/s");
+	public static ItemStack AUTO_ANVIL_2 = new CustomItem(Material.IRON_BLOCK, "&7自动铁砧 Mk.II", "", "&4终极机器", "&8\u21E8 &7修复率: 25%", "&8\u21E8 &e\u26A1 &732 J/s");
 	
 	public static ItemStack BIO_REACTOR = new CustomItem(Material.LIME_TERRACOTTA, "&2生物反应堆", "", "&6平衡发电机", "&8\u21E8 &e\u26A1 &7128 J 缓冲", "&8\u21E8 &e\u26A1 &78 J/s");
 	public static ItemStack MULTIMETER = new CustomItem(Material.CLOCK, "&e万用表", "", "&r测量方块内储存的能量");
@@ -543,19 +543,19 @@ public class SlimefunItems {
 	public static ItemStack INFUSED_HOPPER = new CustomItem(Material.HOPPER, "&5注入漏斗", "", "&r自动捡起范围内的物品： 7x7x7", "&r当放置时.");
 
 	public static ItemStack PLASTIC_SHEET = new CustomItem(Material.PAPER, "&r塑料纸");
-	public static ItemStack HEATED_PRESSURE_CHAMBER = new CustomItem(Material.LIGHT_GRAY_STAINED_GLASS, "&c高温压力室", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &710 J/s");
-	public static ItemStack HEATED_PRESSURE_CHAMBER_2 = new CustomItem(Material.LIGHT_GRAY_STAINED_GLASS, "&c高温压力室 &7- &eII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 5x", "&8\u21E8 &e\u26A1 &744 J/s");
+	public static ItemStack HEATED_PRESSURE_CHAMBER = new CustomItem(Material.LIGHT_GRAY_STAINED_GLASS, "&c高温压力室", "", "&4终极机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &710 J/s");
+	public static ItemStack HEATED_PRESSURE_CHAMBER_2 = new CustomItem(Material.LIGHT_GRAY_STAINED_GLASS, "&c高温压力室 &7- &eII", "", "&4终极机器", "&8\u21E8 &7速度: 5x", "&8\u21E8 &e\u26A1 &744 J/s");
 	
-	public static ItemStack ELECTRIC_SMELTERY = new CustomItem(Material.FURNACE, "&c电力冶炼厂", "", "&4仅合金，不会将矿尘熔炼成锭", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &720 J/s");
-	public static ItemStack ELECTRIC_SMELTERY_2 = new CustomItem(Material.FURNACE, "&c电力冶炼厂 &7- &eII", "", "&4仅合金，不会将矿尘熔炼成锭", "", "&4游戏后期机器", "&8\u21E8 &7速度: 3x", "&8\u21E8 &e\u26A1 &740 J/s");
+	public static ItemStack ELECTRIC_SMELTERY = new CustomItem(Material.FURNACE, "&c电力冶炼厂", "", "&4仅合金，不会将矿尘熔炼成锭", "", "&4终极机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &720 J/s");
+	public static ItemStack ELECTRIC_SMELTERY_2 = new CustomItem(Material.FURNACE, "&c电力冶炼厂 &7- &eII", "", "&4仅合金，不会将矿尘熔炼成锭", "", "&4终极机器", "&8\u21E8 &7速度: 3x", "&8\u21E8 &e\u26A1 &740 J/s");
 	
-	public static ItemStack ELECTRIFIED_CRUCIBLE = new CustomItem(Material.RED_TERRACOTTA, "&c电力坩埚", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &748 J/s");
-	public static ItemStack ELECTRIFIED_CRUCIBLE_2 = new CustomItem(Material.RED_TERRACOTTA, "&c电力坩埚 &7- &eII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 2x", "&8\u21E8 &e\u26A1 &780 J/s");
-	public static ItemStack ELECTRIFIED_CRUCIBLE_3 = new CustomItem(Material.RED_TERRACOTTA, "&c电力坩埚 &7- &eIII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 4x", "&8\u21E8 &e\u26A1 &7120 J/s");
+	public static ItemStack ELECTRIFIED_CRUCIBLE = new CustomItem(Material.RED_TERRACOTTA, "&c电力坩埚", "", "&4终极机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &748 J/s");
+	public static ItemStack ELECTRIFIED_CRUCIBLE_2 = new CustomItem(Material.RED_TERRACOTTA, "&c电力坩埚 &7- &eII", "", "&4终极机器", "&8\u21E8 &7速度: 2x", "&8\u21E8 &e\u26A1 &780 J/s");
+	public static ItemStack ELECTRIFIED_CRUCIBLE_3 = new CustomItem(Material.RED_TERRACOTTA, "&c电力坩埚 &7- &eIII", "", "&4终极机器", "&8\u21E8 &7速度: 4x", "&8\u21E8 &e\u26A1 &7120 J/s");
 
-	public static ItemStack CARBON_PRESS = new CustomItem(Material.BLACK_STAINED_GLASS, "&c碳压机", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &720 J/s");
-	public static ItemStack CARBON_PRESS_2 = new CustomItem(Material.BLACK_STAINED_GLASS, "&c碳压机 &7- &eII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 3x", "&8\u21E8 &e\u26A1 &750 J/s");
-	public static ItemStack CARBON_PRESS_3 = new CustomItem(Material.BLACK_STAINED_GLASS, "&c碳压机 &7- &eIII", "", "&4游戏后期机器", "&8\u21E8 &7速度: 15x", "&8\u21E8 &e\u26A1 &7180 J/s");
+	public static ItemStack CARBON_PRESS = new CustomItem(Material.BLACK_STAINED_GLASS, "&c碳压机", "", "&4终极机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &720 J/s");
+	public static ItemStack CARBON_PRESS_2 = new CustomItem(Material.BLACK_STAINED_GLASS, "&c碳压机 &7- &eII", "", "&4终极机器", "&8\u21E8 &7速度: 3x", "&8\u21E8 &e\u26A1 &750 J/s");
+	public static ItemStack CARBON_PRESS_3 = new CustomItem(Material.BLACK_STAINED_GLASS, "&c碳压机 &7- &eIII", "", "&4终极机器", "&8\u21E8 &7速度: 15x", "&8\u21E8 &e\u26A1 &7180 J/s");
 	
 	public static ItemStack BLISTERING_INGOT = new CustomItem(Material.GOLD_INGOT, "&6起泡锭 &7(33%)", "", "&2辐射等级: HIGH", "&4&o需要危险品套装");
 	public static ItemStack BLISTERING_INGOT_2 = new CustomItem(Material.GOLD_INGOT, "&6起泡锭 &7(66%)", "", "&2辐射等级: HIGH", "&4&o需要危险品套装");
@@ -568,7 +568,7 @@ public class SlimefunItems {
 	public static ItemStack NETHER_ICE = null;
 	public static ItemStack ENRICHED_NETHER_ICE = null;
 	public static ItemStack NETHER_ICE_COOLANT_CELL = null;
-	public static ItemStack NETHER_DRILL = new CustomItem(Material.RED_TERRACOTTA, "&4下界钻", "", "&r允许你挖掘下界之冰", "", "&4游戏后期机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &7102 J/s", "", "&c&l! &c只能在下界使用!", "&c&l! &c确保进行过地理扫描");
+	public static ItemStack NETHER_DRILL = new CustomItem(Material.RED_TERRACOTTA, "&4下界钻", "", "&r允许你挖掘下界之冰", "", "&4终极机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &7102 J/s", "", "&c&l! &c只能在下界使用!", "&c&l! &c确保进行过地理扫描");
 	
 	// Cargo
 	public static ItemStack CARGO_MANAGER = null;
@@ -577,7 +577,7 @@ public class SlimefunItems {
 	public static ItemStack CARGO_OUTPUT = null;
 	public static ItemStack CARGO_OUTPUT_ADVANCED = null;
 
-	public static ItemStack AUTO_BREEDER = new CustomItem(Material.HAY_BLOCK, "&e自动哺育机", "", "&rs使用&a有机食品", "", "&4游戏后期机器", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &760 J/动物");;
+	public static ItemStack AUTO_BREEDER = new CustomItem(Material.HAY_BLOCK, "&e自动哺育机", "", "&rs使用&a有机食品", "", "&4终极机器", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &760 J/动物");;
 	
 	public static ItemStack ORGANIC_FOOD = null;
 	public static ItemStack WHEAT_ORGANIC_FOOD = null;
@@ -597,15 +597,15 @@ public class SlimefunItems {
 	public static ItemStack MELON_FERTILIZER = null;
 	public static ItemStack APPLE_FERTILIZER = null;
 	
-	public static ItemStack ANIMAL_GROWTH_ACCELERATOR = new CustomItem(Material.HAY_BLOCK, "&b动物生长加速器", "", "&rs使用&a有机食品", "", "&4游戏后期机器", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &728 J/s");;
-	public static ItemStack CROP_GROWTH_ACCELERATOR = new CustomItem(Material.LIME_TERRACOTTA, "&a作物生长加速器", "", "&r使用&a有机肥", "", "&4游戏后期机器", "&8\u21E8 &7距离: 7x7", "&8\u21E8 &7速度: &a3/time", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &750 J/s");
-	public static ItemStack CROP_GROWTH_ACCELERATOR_2 = new CustomItem(Material.LIME_TERRACOTTA, "&a作物生长加速器 &7(&eII&7)", "", "&r使用&a有机肥", "", "&4游戏后期机器", "&8\u21E8 &7距离: 9x9", "&8\u21E8 &7速度: &a4/时间", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &760 J/s");
+	public static ItemStack ANIMAL_GROWTH_ACCELERATOR = new CustomItem(Material.HAY_BLOCK, "&b动物生长加速器", "", "&rs使用&a有机食品", "", "&4终极机器", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &728 J/s");;
+	public static ItemStack CROP_GROWTH_ACCELERATOR = new CustomItem(Material.LIME_TERRACOTTA, "&a作物生长加速器", "", "&r使用&a有机肥", "", "&4终极机器", "&8\u21E8 &7距离: 7x7", "&8\u21E8 &7速度: &a3/time", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &750 J/s");
+	public static ItemStack CROP_GROWTH_ACCELERATOR_2 = new CustomItem(Material.LIME_TERRACOTTA, "&a作物生长加速器 &7(&eII&7)", "", "&r使用&a有机肥", "", "&4终极机器", "&8\u21E8 &7距离: 9x9", "&8\u21E8 &7速度: &a4/时间", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &760 J/s");
 
 	public static ItemStack FOOD_FABRICATOR = new CustomItem(Material.GREEN_STAINED_GLASS, "&c食品制造器", "", "&r生产&a有机食品", "", "&6高级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &7256 J 缓冲", "&8\u21E8 &e\u26A1 &714 J/s");
-	public static ItemStack FOOD_FABRICATOR_2 = new CustomItem(Material.GREEN_STAINED_GLASS, "&c食品制造器 &7(&eII&7)", "", "&r生产&a有机食品", "", "&4游戏后期机器", "&8\u21E8 &7速度: 6x", "&8\u21E8 &e\u26A1 &7512 J 缓冲", "&8\u21E8 &e\u26A1 &748 J/s");
+	public static ItemStack FOOD_FABRICATOR_2 = new CustomItem(Material.GREEN_STAINED_GLASS, "&c食品制造器 &7(&eII&7)", "", "&r生产&a有机食品", "", "&4终极机器", "&8\u21E8 &7速度: 6x", "&8\u21E8 &e\u26A1 &7512 J 缓冲", "&8\u21E8 &e\u26A1 &748 J/s");
 	
 	public static ItemStack FOOD_COMPOSTER = new CustomItem(Material.GREEN_TERRACOTTA, "&c食品压缩机", "", "&r生产&a有机肥", "", "&6高级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &7256 J 缓冲", "&8\u21E8 &e\u26A1 &716 J/s");
-	public static ItemStack FOOD_COMPOSTER_2 = new CustomItem(Material.GREEN_TERRACOTTA, "&c食品压缩机 &7(&eII&7)", "", "&r生产&a有机肥", "", "&4游戏后期机器", "&8\u21E8 &7速度: 10x", "&8\u21E8 &e\u26A1 &7512 J 缓冲", "&8\u21E8 &e\u26A1 &752 J/s");
+	public static ItemStack FOOD_COMPOSTER_2 = new CustomItem(Material.GREEN_TERRACOTTA, "&c食品压缩机 &7(&eII&7)", "", "&r生产&a有机肥", "", "&4终极机器", "&8\u21E8 &7速度: 10x", "&8\u21E8 &e\u26A1 &7512 J 缓冲", "&8\u21E8 &e\u26A1 &752 J/s");
 
 	public static ItemStack XP_COLLECTOR = null;
 	public static ItemStack REACTOR_COOLANT_CELL = null;
@@ -615,25 +615,25 @@ public class SlimefunItems {
 	public static ItemStack REACTOR_ACCESS_PORT = new CustomItem(Material.CYAN_TERRACOTTA, "&2反应堆访问接口", "", "&r允许您与反应堆进行交互", "&r通过物流节点，也可以使用", "&r作为缓冲区", "", "&8\u21E8 &e必须放置在反应堆上面 &a3 方块 ");
 	
 	public static ItemStack FREEZER = new CustomItem(Material.LIGHT_BLUE_STAINED_GLASS, "&b电冰箱", "", "&6高级机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &7256 J 缓冲", "&8\u21E8 &e\u26A1 &718 J/s");;
-	public static ItemStack FREEZER_2 = new CustomItem(Material.LIGHT_BLUE_STAINED_GLASS, "&b电冰箱 &7(&eII&7)", "", "&4游戏后期机器", "&8\u21E8 &7速度: 2x", "&8\u21E8 &e\u26A1 &7256 J 缓冲", "&8\u21E8 &e\u26A1 &730 J/s");;
+	public static ItemStack FREEZER_2 = new CustomItem(Material.LIGHT_BLUE_STAINED_GLASS, "&b电冰箱 &7(&eII&7)", "", "&4终极机器", "&8\u21E8 &7速度: 2x", "&8\u21E8 &e\u26A1 &7256 J 缓冲", "&8\u21E8 &e\u26A1 &730 J/s");;
 	
 	public static ItemStack ELECTRIC_GOLD_PAN = new CustomItem(Material.BROWN_TERRACOTTA, "&6电力淘金盘", "", "&e基础机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &72 J/s");
 	public static ItemStack ELECTRIC_GOLD_PAN_2 = new CustomItem(Material.BROWN_TERRACOTTA, "&6电力淘金盘 &7(&eII&7)", "", "&e基础机器", "&8\u21E8 &7速度: 3x", "&8\u21E8 &e\u26A1 &74 J/s");
-	public static ItemStack ELECTRIC_GOLD_PAN_3 = new CustomItem(Material.BROWN_TERRACOTTA, "&6电力淘金盘 &7(&eIII&7)", "", "&4游戏后期机器", "&8\u21E8 &7速度: 10x", "&8\u21E8 &e\u26A1 &714 J/s");
+	public static ItemStack ELECTRIC_GOLD_PAN_3 = new CustomItem(Material.BROWN_TERRACOTTA, "&6电力淘金盘 &7(&eIII&7)", "", "&4终极机器", "&8\u21E8 &7速度: 10x", "&8\u21E8 &e\u26A1 &714 J/s");
 
 	public static ItemStack ELECTRIC_DUST_WASHER = new CustomItem(Material.BLUE_STAINED_GLASS, "&3电力洗矿机", "", "&e基础机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &76 J/s");
 	public static ItemStack ELECTRIC_DUST_WASHER_2 = new CustomItem(Material.BLUE_STAINED_GLASS, "&3电力洗矿机 &7(&eII&7)", "", "&e基础机器", "&8\u21E8 &7速度: 2x", "&8\u21E8 &e\u26A1 &710 J/s");
-	public static ItemStack ELECTRIC_DUST_WASHER_3 = new CustomItem(Material.BLUE_STAINED_GLASS, "&3电力洗矿机 &7(&eIII&7)", "", "&4游戏后期机器", "&8\u21E8 &7速度: 10x", "&8\u21E8 &e\u26A1 &730 J/s");
+	public static ItemStack ELECTRIC_DUST_WASHER_3 = new CustomItem(Material.BLUE_STAINED_GLASS, "&3电力洗矿机 &7(&eIII&7)", "", "&4终极机器", "&8\u21E8 &7速度: 10x", "&8\u21E8 &e\u26A1 &730 J/s");
 
 	public static ItemStack ELECTRIC_INGOT_FACTORY = new CustomItem(Material.RED_TERRACOTTA, "&c电锭厂", "", "&e基础机器", "&8\u21E8 &7速度: 1x", "&8\u21E8 &e\u26A1 &78 J/s");
 	public static ItemStack ELECTRIC_INGOT_FACTORY_2 = new CustomItem(Material.RED_TERRACOTTA, "&c电锭厂 &7(&eII&7)", "", "&e基础机器", "&8\u21E8 &7速度: 2x", "&8\u21E8 &e\u26A1 &714 J/s");
-	public static ItemStack ELECTRIC_INGOT_FACTORY_3 = new CustomItem(Material.RED_TERRACOTTA, "&c电锭厂 &7(&eIII&7)", "", "&4游戏后期机器", "&8\u21E8 &7速度: 8x", "&8\u21E8 &e\u26A1 &740 J/s");
+	public static ItemStack ELECTRIC_INGOT_FACTORY_3 = new CustomItem(Material.RED_TERRACOTTA, "&c电锭厂 &7(&eIII&7)", "", "&4终极机器", "&8\u21E8 &7速度: 8x", "&8\u21E8 &e\u26A1 &740 J/s");
 
 	public static ItemStack AUTOMATED_CRAFTING_CHAMBER = new CustomItem(Material.CRAFTING_TABLE, "&6自动合成室", "", "&6高级机器", "&8\u21E8 &e\u26A1 &710 J/物品");
 	public static ItemStack FLUID_PUMP = new CustomItem(Material.BLUE_TERRACOTTA, "&9流体泵", "", "&6高级机器", "&8\u21E8 &e\u26A1 &732 J/方块");
 	public static ItemStack CHARGING_BENCH = new CustomItem(Material.CRAFTING_TABLE, "&6充能台", "", "&r给物品充电", "", "&e基础机器", "&8\u21E8 &e\u26A1 &7128 J 缓冲", "&8\u21E8 &e\u26A1 &7能量损失: &c50%");
 
-	public static ItemStack WITHER_ASSEMBLER = new CustomItem(Material.OBSIDIAN, "&5凋零组装器", "", "&4游戏后期机器", "&8\u21E8 &7冷却: &b30 秒", "&8\u21E8 &e\u26A1 &74096 J 缓冲", "&8\u21E8 &e\u26A1 &74096 J/每个凋零");
+	public static ItemStack WITHER_ASSEMBLER = new CustomItem(Material.OBSIDIAN, "&5凋零组装器", "", "&4终极机器", "&8\u21E8 &7冷却: &b30 秒", "&8\u21E8 &e\u26A1 &74096 J 缓冲", "&8\u21E8 &e\u26A1 &74096 J/每个凋零");
 	
 	public static ItemStack TRASH_CAN = null;
 	
@@ -753,7 +753,7 @@ public class SlimefunItems {
 			CARGO_OUTPUT = new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTViMjFmZDQ4MGMxYzQzYmYzYjlmODQyYzg2OWJkYzNiYzVhY2MyNTk5YmYyZWI2YjhhMWM5NWRjZTk3OGYifX19"), "&7物流节点 &c(输出)", "", "&r物流输出管道");
 			CARGO_OUTPUT_ADVANCED = new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTViMjFmZDQ4MGMxYzQzYmYzYjlmODQyYzg2OWJkYzNiYzVhY2MyNTk5YmYyZWI2YjhhMWM5NWRjZTk3OGYifX19"), "&6高级物流节点 &c(输出)", "", "&r物流输出管道");
 
-			XP_COLLECTOR = new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2MmExNWIwNDY5MmEyZTRiM2ZiMzY2M2JkNGI3ODQzNGRjZTE3MzJiOGViMWM3YTlmN2MwZmJmNmYifX19"), "&a经验收集器", "", "&r收集旁边的经验球并收集在里面", "", "&4游戏后期机器", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &720 J/s");
+			XP_COLLECTOR = new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2MmExNWIwNDY5MmEyZTRiM2ZiMzY2M2JkNGI3ODQzNGRjZTE3MzJiOGViMWM3YTlmN2MwZmJmNmYifX19"), "&a经验收集器", "", "&r收集旁边的经验球并收集在里面", "", "&4终极机器", "&8\u21E8 &e\u26A1 &71024 J 缓冲", "&8\u21E8 &e\u26A1 &720 J/s");
 			
 			ORGANIC_FOOD = new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQzOWUzZjVhY2JlZTliZTRjNDI1OTI4OWQ2ZDlmMzVjNjM1ZmZhNjYxMTE0Njg3YjNlYTZkZGE4Yzc5In19fQ=="), "&a有机食物", "&7内容: &9X");
 			WHEAT_ORGANIC_FOOD = new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQzOWUzZjVhY2JlZTliZTRjNDI1OTI4OWQ2ZDlmMzVjNjM1ZmZhNjYxMTE0Njg3YjNlYTZkZGE4Yzc5In19fQ=="), "&a有机食物", "&7内容: &9小麦");
