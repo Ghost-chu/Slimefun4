@@ -2794,11 +2794,10 @@ public class SlimefunSetup {
 									,e.getBlock().getBlockData()
 							);
 							block.getWorld().playEffect(block.getLocation(), Effect.STEP_SOUND, e.getItem().getType());
-							if (d.getInventory().containsAtLeast(e.getItem(), 2)) d.getInventory().removeItem(new CustomItem(e.getItem(), 1));
-							else {
-								Bukkit.getScheduler().runTaskLater(SlimefunStartup.instance, () -> {
-									d.getInventory().removeItem(e.getItem());
-								}, 2L);
+							if (d.getInventory().containsAtLeast(e.getItem(), 2)){
+								d.getInventory().removeItem(new CustomItem(e.getItem(), 1));
+							} else {
+								d.getInventory().remove(e.getItem());
 							}
 						}
 					}
