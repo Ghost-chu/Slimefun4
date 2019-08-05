@@ -280,11 +280,17 @@ public class ItemListener implements Listener {
 
 						if (storage.hasUniversalInventory(id)) {
 							UniversalBlockMenu menu = storage.getUniversalInventory(id);
-							if (menu.canOpen(e.getClickedBlock(), p)) menu.open(p);
+							if (menu.canOpen(e.getClickedBlock(), p)){
+								SlimefunStartup.instance.logContainerTransaction(p.getName(), e.getClickedBlock().getLocation());
+								menu.open(p);
+							}
 						}
 						else if (storage.hasInventory(e.getClickedBlock().getLocation())) {
 							BlockMenu menu = BlockStorage.getInventory(e.getClickedBlock().getLocation());
-							if (menu.canOpen(e.getClickedBlock(), p)) menu.open(p);
+							if (menu.canOpen(e.getClickedBlock(), p)){
+								SlimefunStartup.instance.logContainerTransaction(p.getName(), e.getClickedBlock().getLocation());
+								menu.open(p);
+							}
 						}
 					}
 				}
