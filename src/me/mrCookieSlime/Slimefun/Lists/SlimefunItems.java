@@ -225,14 +225,14 @@ public class SlimefunItems {
 	public static ItemStack COOLING_UNIT = null;
 	public static ItemStack ELECTRIC_MOTOR = null;
 	public static ItemStack CARGO_MOTOR = null;
-	public static ItemStack SCROLL_OF_DIMENSIONAL_TELEPOSITION = new CustomItem(Material.PAPER, "&6Scroll of Dimensional Teleposition", "", "&cThis Scroll is capable of creating", "&ca temporary black Hole which pulls", "&cnearby Entities into itself and sends", "&cthem into another Dimension where", "&ceverything is turned around", "", "&rIn other words: Makes Entities turn by 180 Degrees");
-	public static ItemStack TOME_OF_KNOWLEDGE_SHARING = new CustomItem(Material.BOOK, "&6Tome of Knowledge Sharing", "&7Owner: &bNone", "", "&e右键单击&7 to bind this Tome to yourself", "", "", "&e右键单击&7 to obtain all Researches by", "&7the previously assigned Owner");
-	public static ItemStack HARDENED_GLASS = new CustomItem(Material.LIGHT_GRAY_STAINED_GLASS, "&7Hardened Glass", "", "&rWithstands Explosions");
-	public static ItemStack WITHER_PROOF_OBSIDIAN = new CustomItem(Material.OBSIDIAN, "&5Wither-Proof Obsidian", "", "&rWithstands Explosions", "&rWithstands Wither Bosses");
-	public static ItemStack WITHER_PROOF_GLASS = new CustomItem(Material.PURPLE_STAINED_GLASS, "&5Wither-Proof Glass", "", "&rWithstands Explosions", "&rWithstands Wither Bosses");
-	public static ItemStack REINFORCED_PLATE = new CustomItem(Material.PAPER, "&7Reinforced Plate");
-	public static ItemStack ANCIENT_PEDESTAL = new CustomItem(Material.DISPENSER, "&dAncient Pedestal", "", "&5Part of the Ancient Altar");
-	public static ItemStack ANCIENT_ALTAR = new CustomItem(Material.ENCHANTING_TABLE, "&dAncient Altar", "", "&5Multi-Block Altar for", "&5magical Crafting Processes");
+	public static ItemStack SCROLL_OF_DIMENSIONAL_TELEPOSITION = new CustomItem(Material.PAPER, "&6跨纬度传送卷轴", "", "&c此卷轴能够创建", "&c一个临时黑洞把周围", "&c生物包括自己", "&c传送到其他他维度", "&c一切都转过来了", "", "&r换一种说法: 让实体旋转180°");
+	public static ItemStack TOME_OF_KNOWLEDGE_SHARING = new CustomItem(Material.BOOK, "&6知识共享图腾", "&7所有者: &b无", "", "&e右键单击&7 绑定图腾到你身上", "", "", "&e右键单击&7 来获取所有者", "&7解锁的全部研究");
+	public static ItemStack HARDENED_GLASS = new CustomItem(Material.LIGHT_GRAY_STAINED_GLASS, "&7硬化玻璃", "", "&r抗爆炸");
+	public static ItemStack WITHER_PROOF_OBSIDIAN = new CustomItem(Material.OBSIDIAN, "&5凋零黑曜石", "", "&r抗爆炸", "&r抗凋零");
+	public static ItemStack WITHER_PROOF_GLASS = new CustomItem(Material.PURPLE_STAINED_GLASS, "&5凋零玻璃", "", "&rW抗爆炸", "&r抗凋零");
+	public static ItemStack REINFORCED_PLATE = new CustomItem(Material.PAPER, "&7加强板");
+	public static ItemStack ANCIENT_PEDESTAL = new CustomItem(Material.DISPENSER, "&d古代基座", "", "&5Part of the Ancient Altar");
+	public static ItemStack ANCIENT_ALTAR = new CustomItem(Material.ENCHANTING_TABLE, "&d古代祭坛", "", "&5Multi-Block Altar for", "&5magical Crafting Processes");
 	public static ItemStack DUCT_TAPE = null;
 
 	public static ItemStack RAINBOW_WOOL = new CustomItem(Material.WHITE_WOOL, "&5Rainbow Wool", "", "&dCycles through all Colors of the Rainbow!");
@@ -251,80 +251,80 @@ public class SlimefunItems {
 	public static ItemStack RAINBOW_GLASS_PANE_VALENTINE = new CustomItem(Material.PINK_STAINED_GLASS_PANE, "&5Rainbow Glass Pane &7(Valentine's Day)", "", "&d< Valentine's Day Edition >");
 
 	/*		 Ingots 		*/
-	public static ItemStack COPPER_INGOT = new CustomItem(Material.BRICK, "&bCopper Ingot");
-	public static ItemStack TIN_INGOT = new CustomItem(Material.IRON_INGOT, "&bTin Ingot");
-	public static ItemStack SILVER_INGOT = new CustomItem(Material.IRON_INGOT, "&bSilver Ingot");
-	public static ItemStack ALUMINUM_INGOT = new CustomItem(Material.IRON_INGOT, "&bAluminum Ingot");
-	public static ItemStack LEAD_INGOT = new CustomItem(Material.IRON_INGOT, "&bLead Ingot");
-	public static ItemStack ZINC_INGOT = new CustomItem(Material.IRON_INGOT, "&bZinc Ingot");
-	public static ItemStack MAGNESIUM_INGOT = new CustomItem(Material.IRON_INGOT, "&bMagnesium Ingot");
+	public static ItemStack COPPER_INGOT = new CustomItem(Material.BRICK, "&b铜锭");
+	public static ItemStack TIN_INGOT = new CustomItem(Material.IRON_INGOT, "&b锡锭");
+	public static ItemStack SILVER_INGOT = new CustomItem(Material.IRON_INGOT, "&b银锭");
+	public static ItemStack ALUMINUM_INGOT = new CustomItem(Material.IRON_INGOT, "&b铝锭");
+	public static ItemStack LEAD_INGOT = new CustomItem(Material.IRON_INGOT, "&b铅锭");
+	public static ItemStack ZINC_INGOT = new CustomItem(Material.IRON_INGOT, "&b锌锭");
+	public static ItemStack MAGNESIUM_INGOT = new CustomItem(Material.IRON_INGOT, "&b镁锭");
 
 	/*		Alloy (Carbon + Iron)	*/
-	public static ItemStack STEEL_INGOT = new CustomItem(Material.IRON_INGOT, "&bSteel Ingot");
+	public static ItemStack STEEL_INGOT = new CustomItem(Material.IRON_INGOT, "&b钢锭");
 	/*		Alloy (Copper + Tin)	*/
-	public static ItemStack BRONZE_INGOT = new CustomItem(Material.BRICK, "&bBronze Ingot");
+	public static ItemStack BRONZE_INGOT = new CustomItem(Material.BRICK, "&b青铜锭");
 	/*		Alloy (Copper + Aluminum)	*/
-	public static ItemStack DURALUMIN_INGOT = new CustomItem(Material.IRON_INGOT, "&bDuralumin Ingot");
+	public static ItemStack DURALUMIN_INGOT = new CustomItem(Material.IRON_INGOT, "&b硬铝锭");
 	/*		Alloy (Copper + Silver)	*/
-	public static ItemStack BILLON_INGOT = new CustomItem(Material.IRON_INGOT, "&bBillon Ingot");
+	public static ItemStack BILLON_INGOT = new CustomItem(Material.IRON_INGOT, "&b合金锭");
 	/*		Alloy (Copper + Zinc)	*/
-	public static ItemStack BRASS_INGOT = new CustomItem(Material.GOLD_INGOT, "&bBrass Ingot");
+	public static ItemStack BRASS_INGOT = new CustomItem(Material.GOLD_INGOT, "&b黄铜锭");
 	/*		Alloy (Aluminum + Brass)	*/
-	public static ItemStack ALUMINUM_BRASS_INGOT = new CustomItem(Material.GOLD_INGOT, "&bAluminum Brass Ingot");
+	public static ItemStack ALUMINUM_BRASS_INGOT = new CustomItem(Material.GOLD_INGOT, "&b铝黄铜锭");
 	/*		Alloy (Aluminum + Bronze)	*/
-	public static ItemStack ALUMINUM_BRONZE_INGOT = new CustomItem(Material.GOLD_INGOT, "&bAluminum Bronze Ingot");
+	public static ItemStack ALUMINUM_BRONZE_INGOT = new CustomItem(Material.GOLD_INGOT, "&b铝青铜锭");
 	/*		Alloy (Gold + Silver + Copper)	*/
-	public static ItemStack CORINTHIAN_BRONZE_INGOT = new CustomItem(Material.GOLD_INGOT, "&bCorinthian Bronze Ingot");
+	public static ItemStack CORINTHIAN_BRONZE_INGOT = new CustomItem(Material.GOLD_INGOT, "&b科林斯青铜锭");
 	/*		Alloy (Lead + Tin)	*/
-	public static ItemStack SOLDER_INGOT = new CustomItem(Material.IRON_INGOT, "&bSolder Ingot");
+	public static ItemStack SOLDER_INGOT = new CustomItem(Material.IRON_INGOT, "&b焊锡锭");
 	/*		Alloy (Steel + Iron + Carbon)	*/
-	public static ItemStack DAMASCUS_STEEL_INGOT = new CustomItem(Material.IRON_INGOT, "&bDamascus Steel Ingot");
+	public static ItemStack DAMASCUS_STEEL_INGOT = new CustomItem(Material.IRON_INGOT, "&b大马士革钢锭");
 	/*		Alloy (Damascus Steel + Duralumin + Compressed Carbon + Aluminium Bronze)	*/
-	public static ItemStack HARDENED_METAL_INGOT = new CustomItem(Material.IRON_INGOT, "&b&lHardened Metal");
+	public static ItemStack HARDENED_METAL_INGOT = new CustomItem(Material.IRON_INGOT, "&b&l硬化金属");
 	/*		Alloy (Hardened Metal + Corinthian Bronze + Solder + Billon + Damascus Steel)	*/
-	public static ItemStack REINFORCED_ALLOY_INGOT = new CustomItem(Material.IRON_INGOT, "&b&lReinforced Alloy Ingot");
+	public static ItemStack REINFORCED_ALLOY_INGOT = new CustomItem(Material.IRON_INGOT, "&b&l增强合金铸锭");
 	/*		Alloy (Iron + Silicon)		*/
-	public static ItemStack FERROSILICON = new CustomItem(Material.IRON_INGOT, "&bFerrosilicon");
+	public static ItemStack FERROSILICON = new CustomItem(Material.IRON_INGOT, "&b硅铁");
 	/*		Alloy (Iron + Gold)			*/
-	public static ItemStack GILDED_IRON = new CustomItem(Material.GOLD_INGOT, "&6&lGilded Iron");
+	public static ItemStack GILDED_IRON = new CustomItem(Material.GOLD_INGOT, "&6&l镀金铁");
 	/*		Alloy (Redston + Ferrosilicon)	*/
-	public static ItemStack REDSTONE_ALLOY = new CustomItem(Material.BRICK, "&cRedstone Alloy Ingot");
+	public static ItemStack REDSTONE_ALLOY = new CustomItem(Material.BRICK, "&c红石合金锭");
 	/*		Alloy (Iron + Copper)		*/
-	public static ItemStack NICKEL_INGOT = new CustomItem(Material.IRON_INGOT, "&bNickel Ingot");
+	public static ItemStack NICKEL_INGOT = new CustomItem(Material.IRON_INGOT, "&b镍锭");
 	/*		Alloy (Nickel + Iron + Copper)		*/
-	public static ItemStack COBALT_INGOT = new CustomItem(Material.IRON_INGOT, "&9Cobalt Ingot");
+	public static ItemStack COBALT_INGOT = new CustomItem(Material.IRON_INGOT, "&9钴锭");
 
 	/*		Gold		*/
-	public static ItemStack GOLD_4K = new CustomItem(Material.GOLD_INGOT, "&rGold Ingot &7(4-Carat)");
-	public static ItemStack GOLD_6K = new CustomItem(Material.GOLD_INGOT, "&rGold Ingot &7(6-Carat)");
-	public static ItemStack GOLD_8K = new CustomItem(Material.GOLD_INGOT, "&rGold Ingot &7(8-Carat)");
-	public static ItemStack GOLD_10K = new CustomItem(Material.GOLD_INGOT, "&rGold Ingot &7(10-Carat)");
-	public static ItemStack GOLD_12K = new CustomItem(Material.GOLD_INGOT, "&rGold Ingot &7(12-Carat)");
-	public static ItemStack GOLD_14K = new CustomItem(Material.GOLD_INGOT, "&rGold Ingot &7(14-Carat)");
-	public static ItemStack GOLD_16K = new CustomItem(Material.GOLD_INGOT, "&rGold Ingot &7(16-Carat)");
-	public static ItemStack GOLD_18K = new CustomItem(Material.GOLD_INGOT, "&rGold Ingot &7(18-Carat)");
-	public static ItemStack GOLD_20K = new CustomItem(Material.GOLD_INGOT, "&rGold Ingot &7(20-Carat)");
-	public static ItemStack GOLD_22K = new CustomItem(Material.GOLD_INGOT, "&rGold Ingot &7(22-Carat)");
-	public static ItemStack GOLD_24K = new CustomItem(Material.GOLD_INGOT, "&rGold Ingot &7(24-Carat)");
+	public static ItemStack GOLD_4K = new CustomItem(Material.GOLD_INGOT, "&r金粒 &7(4-克拉)");
+	public static ItemStack GOLD_6K = new CustomItem(Material.GOLD_INGOT, "&r金粒 &7(6-克拉)");
+	public static ItemStack GOLD_8K = new CustomItem(Material.GOLD_INGOT, "&r金粒 &7(8-克拉)");
+	public static ItemStack GOLD_10K = new CustomItem(Material.GOLD_INGOT, "&r金粒 &7(10-克拉)");
+	public static ItemStack GOLD_12K = new CustomItem(Material.GOLD_INGOT, "&r金粒 &7(12-克拉)");
+	public static ItemStack GOLD_14K = new CustomItem(Material.GOLD_INGOT, "&r金粒 &7(14-克拉)");
+	public static ItemStack GOLD_16K = new CustomItem(Material.GOLD_INGOT, "&r金粒 &7(16-克拉)");
+	public static ItemStack GOLD_18K = new CustomItem(Material.GOLD_INGOT, "&r金粒 &7(18-克拉)");
+	public static ItemStack GOLD_20K = new CustomItem(Material.GOLD_INGOT, "&r金粒 &7(20-克拉)");
+	public static ItemStack GOLD_22K = new CustomItem(Material.GOLD_INGOT, "&r金粒 &7(22-克拉)");
+	public static ItemStack GOLD_24K = new CustomItem(Material.GOLD_INGOT, "&r金粒 &7(24-克拉)");
 
 	/*		 Dusts 		*/
-	public static ItemStack IRON_DUST = new CustomItem(Material.GUNPOWDER, "&6Iron Dust");
-	public static ItemStack GOLD_DUST = new CustomItem(Material.GLOWSTONE_DUST, "&6Gold Dust");
-	public static ItemStack TIN_DUST = new CustomItem(Material.SUGAR, "&6Tin Dust");
-	public static ItemStack COPPER_DUST = new CustomItem(Material.GLOWSTONE_DUST, "&6Copper Dust");
-	public static ItemStack SILVER_DUST = new CustomItem(Material.SUGAR, "&6Silver Dust");
-	public static ItemStack ALUMINUM_DUST = new CustomItem(Material.SUGAR, "&6Aluminum Dust");
-	public static ItemStack LEAD_DUST = new CustomItem(Material.GUNPOWDER, "&6Lead Dust");
-	public static ItemStack SULFATE = new CustomItem(Material.GLOWSTONE_DUST, "&6Sulfate");
-	public static ItemStack ZINC_DUST = new CustomItem(Material.SUGAR, "&6Zinc Dust");
-	public static ItemStack MAGNESIUM_DUST = new CustomItem(Material.SUGAR, "&6Magnesium");
+	public static ItemStack IRON_DUST = new CustomItem(Material.GUNPOWDER, "&6铁粉");
+	public static ItemStack GOLD_DUST = new CustomItem(Material.GLOWSTONE_DUST, "&6金粉");
+	public static ItemStack TIN_DUST = new CustomItem(Material.SUGAR, "&6锡粉");
+	public static ItemStack COPPER_DUST = new CustomItem(Material.GLOWSTONE_DUST, "&6铜粉");
+	public static ItemStack SILVER_DUST = new CustomItem(Material.SUGAR, "&6银粉");
+	public static ItemStack ALUMINUM_DUST = new CustomItem(Material.SUGAR, "&铝粉");
+	public static ItemStack LEAD_DUST = new CustomItem(Material.GUNPOWDER, "&6铅粉");
+	public static ItemStack SULFATE = new CustomItem(Material.GLOWSTONE_DUST, "&6硫酸盐");
+	public static ItemStack ZINC_DUST = new CustomItem(Material.SUGAR, "&6锌粉");
+	public static ItemStack MAGNESIUM_DUST = new CustomItem(Material.SUGAR, "&6镁");
 	public static ItemStack CARBON = null;
-	public static ItemStack SILICON = new CustomItem(Material.FIREWORK_STAR, "&6Silicon");
-	public static ItemStack GOLD_24K_BLOCK = new CustomItem(Material.GOLD_BLOCK, "&rGold Block &7(24-Carat)");
+	public static ItemStack SILICON = new CustomItem(Material.FIREWORK_STAR, "&6硅");
+	public static ItemStack GOLD_24K_BLOCK = new CustomItem(Material.GOLD_BLOCK, "&r金块 &7(24-克拉)");
 
 	/*		 Gems 		*/
-	public static ItemStack SYNTHETIC_DIAMOND = new CustomItem(Material.DIAMOND, "&bSynthetic Diamond");
-	public static ItemStack SYNTHETIC_EMERALD = new CustomItem(Material.EMERALD, "&bSynthetic Emerald");
+	public static ItemStack SYNTHETIC_DIAMOND = new CustomItem(Material.DIAMOND, "&b人造钻石");
+	public static ItemStack SYNTHETIC_EMERALD = new CustomItem(Material.EMERALD, "&b人造绿宝石");
 	public static ItemStack SYNTHETIC_SAPPHIRE = null;
 	public static ItemStack CARBONADO = null;
 	public static ItemStack RAW_CARBONADO = null;
@@ -334,42 +334,42 @@ public class SlimefunItems {
 	public static ItemStack BOOSTED_URANIUM = null;
 
 	/*		Talisman		*/
-	public static ItemStack TALISMAN = new CustomItem(Material.EMERALD, "&6Common Talisman");
-	public static ItemStack TALISMAN_ANVIL = new CustomItem(Material.EMERALD, "&aTalisman of the Anvil", "", "&rEach Talisman can prevent", "&r1 Tool from breaking, but will then", "&rbe consumed", "", "&4&lWARNING:", "&4This Talisman does not work on", "&4Tools which are too powerful", "&4due to their complexity");
-	public static ItemStack TALISMAN_MINER = new CustomItem(Material.EMERALD, "&aTalisman of the Miner", "", "&rWhile you have this Talisman", "&rin your Inventory it has", "&ra 20% chance of doubling", "&rall Ores you mine");
-	public static ItemStack TALISMAN_HUNTER = new CustomItem(Material.EMERALD, "&aTalisman of the Hunter", "", "&rWhile you have this Talisman", "&rin your Inventory it has", "&ra 20% chance of doubling", "&rall Drops from Mobs you kill");
-	public static ItemStack TALISMAN_LAVA = new CustomItem(Material.EMERALD, "&aTalisman of the Lava Walker", "", "&rWhile you have this Talisman", "&rin your Inventory it will", "&rgive you Fire Resistance", "&ras soon as you touch Lava", "&rbut will then be consumed");
-	public static ItemStack TALISMAN_WATER = new CustomItem(Material.EMERALD, "&aTalisman of the Water Breather", "", "&rWhile you have this Talisman", "&rin your Inventory it will", "&rgive you the ability", "&rto breath underwater as", "&rsoon as you start drowning", "&rbut will then be consumed");
-	public static ItemStack TALISMAN_ANGEL = new CustomItem(Material.EMERALD, "&aTalisman of the Angel", "", "&rWhile you have this Talisman", "&rin your Inventory it has a", "&r75% chance to prevent you", "&rfrom taking Fall Damage");
-	public static ItemStack TALISMAN_FIRE = new CustomItem(Material.EMERALD, "&aTalisman of the Firefighter", "", "&rWhile you have this Talisman", "&rin your Inventory it will", "&rgive you Fire Resistance", "&ras soon as you start burning", "&rbut will then be consumed");
-	public static ItemStack TALISMAN_MAGICIAN = new CustomItem(Material.EMERALD, "&aTalisman of the Magician", "", "&rWhile you have this Talisman", "&rin your Inventory it gives", "&ryou a 80% Luck Bonus on Enchanting", "&rYou will sometimes get an Extra Enchantment");
-	public static ItemStack TALISMAN_TRAVELLER = new CustomItem(Material.EMERALD, "&aTalisman of the Traveller", "", "&rWhile you have this Talisman", "&rin your Inventory it gives", "&ryou a 60% Chance for a decent", "&rSpeed Buff when you start sprinting");
-	public static ItemStack TALISMAN_WARRIOR = new CustomItem(Material.EMERALD, "&aTalisman of the Warrior", "", "&rWhile you have this Talisman", "&rin your Inventory it gives", "&ryou Strength III whenever you get hit", "&rbut will then be consumed");
-	public static ItemStack TALISMAN_KNIGHT = new CustomItem(Material.EMERALD, "&aTalisman of the Knight", "", "&rWhile you have this Talisman", "&rin your Inventory it gives", "&ryou a 30% Chance for 5 Seconds of Regeneration", "&rwhenever You get hit", "&rbut will then be consumed");
-	public static ItemStack TALISMAN_WHIRLWIND = new CustomItem(Material.EMERALD, "&aTalisman of the Whirlwind", "", "&rWhile you have this Talisman", "&rin your Inventory it will reflect", "&r60% of all Projectiles fired at you");
-	public static ItemStack TALISMAN_WIZARD = new CustomItem(Material.EMERALD, "&aTalisman of the Wizard", "", "&rWhile you have this Talisman", "&rin your Inventory it allows you to", "&robtain Fortune Level 4/5 however", "&rit also has a chance to lower the", "&rLevel of some Enchantments on your Item");
+	public static ItemStack TALISMAN = new CustomItem(Material.EMERALD, "&6寻常的附身符");
+	public static ItemStack TALISMAN_ANVIL = new CustomItem(Material.EMERALD, "&a铁砧护身符", "", "&r每个护身符可保护", "&r1 个工具免遭耐久用尽, 然后护身符", "&r就会被消耗", "", "&4&l警告:", "&4当工具太强力时此护身符", "&4不起作用");
+	public static ItemStack TALISMAN_MINER = new CustomItem(Material.EMERALD, "&a矿工护身符", "", "&r当你拥有这个护身符时", "&r放置在你的背包中", "&r你会有 20% 几率", "&r掉落双倍矿石");
+	public static ItemStack TALISMAN_HUNTER = new CustomItem(Material.EMERALD, "&a猎人护身符", "", "&r当你拥有这个护身符时", "&r放置在你的背包中", "&r你会有 20% 几率", "&r掉落双倍怪物战利品");
+	public static ItemStack TALISMAN_LAVA = new CustomItem(Material.EMERALD, "&a岩浆行者护身符", "", "&r当你拥有这个护身符时", "&r放置在你的背包中", "&r这将给你防火效果", "&r当你接触到岩浆时", "&r它将会被消耗");
+	public static ItemStack TALISMAN_WATER = new CustomItem(Material.EMERALD, "&a水肺护身符", "", "&r当你拥有这个护身符时", "&r放置在你的背包中", "&r这将给你水下呼吸的能力", "&r护身符被消耗后", "&r你就会开始溺水");
+	public static ItemStack TALISMAN_ANGEL = new CustomItem(Material.EMERALD, "&a天使护身符", "", "&r当你拥有这个护身符时", "&ri放置在你的背包中", "&r75% 几率保护你", "&r不会受到摔落伤害");
+	public static ItemStack TALISMAN_FIRE = new CustomItem(Material.EMERALD, "&a烈焰护身符", "", "&r当你拥有这个护身符时", "&r放置在你的背包中", "&r这将给你防火效果", "&r当护身符被消耗后", "&r你就会开始着火");
+	public static ItemStack TALISMAN_MAGICIAN = new CustomItem(Material.EMERALD, "&a魔法师护身符", "", "&r当你拥有这个护身符时", "&r放置在你的背包中", "&r给你附魔时增加 80% 的幸运几率", "&r有时候你可以得到额外附魔");
+	public static ItemStack TALISMAN_TRAVELLER = new CustomItem(Material.EMERALD, "&a旅人护身符", "", "&r当你拥有这个护身符时", "&r放置在你的背包中", "&r有 60% 的几率获得", "&r速度效果当你开始疾跑时");
+	public static ItemStack TALISMAN_WARRIOR = new CustomItem(Material.EMERALD, "&a战士护身符", "", "&r当你拥有这个护身符时", "&r放置在你的背包中", "&r当你攻击时将会获得力量III效果", "&r然后护身符会被消耗");
+	public static ItemStack TALISMAN_KNIGHT = new CustomItem(Material.EMERALD, "&a骑士护身符", "", "&r当你拥有这个护身符时", "&r放置在你的背包中", "&r你有 30% 几率获得 5 秒生命恢复", "&r当你受到攻击时", "&r护身符会被消耗");
+	public static ItemStack TALISMAN_WHIRLWIND = new CustomItem(Material.EMERALD, "&a旋风护身符", "", "&r当你拥有这个护身符时", "&r放置在你的背包中将反弹", "&r60% 的抛射物");
+	public static ItemStack TALISMAN_WIZARD = new CustomItem(Material.EMERALD, "&a巫师护身符", "", "&r当你拥有这个护身符时", "&r放置在你的背包", "&r将会附魔4/5几率", "&r或者更低的等级", "&r在你的物品上");
 
 	/*		Staves		*/
 	public static ItemStack STAFF_ELEMENTAL = new CustomItem(Material.STICK, "&6Elemental Staff");
-	public static ItemStack STAFF_WIND = new CustomItem(Material.STICK, "&6Elemental Staff &7- &b&oWind", 0, new String[] {"", "&7Element: &b&oWind", "", "&7&e右键单击&7 to launch yourself forward"}, new String[] {"LUCK-1"});
-	public static ItemStack STAFF_FIRE = new CustomItem(Material.STICK, "&6Elemental Staff &7- &c&oFire", 0, new String[] {"", "&7Element: &c&oFire"}, new String[] {"FIRE_ASPECT-5"});
-	public static ItemStack STAFF_WATER = new CustomItem(Material.STICK, "&6Elemental Staff &7- &1&oWater", 0, new String[] {"", "&7Element: &1&oWater", "", "&7&e右键单击&7 to extinguish yourself"}, new String[] {"WATER_WORKER-1"});
+	public static ItemStack STAFF_WIND = new CustomItem(Material.STICK, "&6Elemental Staff &7- &b&oWind", 0, new String[] {"", "&7元素: &b&oWind", "", "&7&e右键单击&7 把自己发射上天"}, new String[] {"LUCK-1"});
+	public static ItemStack STAFF_FIRE = new CustomItem(Material.STICK, "&6Elemental Staff &7- &c&oFire", 0, new String[] {"", "&7元素: &c&oFire"}, new String[] {"FIRE_ASPECT-5"});
+	public static ItemStack STAFF_WATER = new CustomItem(Material.STICK, "&6Elemental Staff &7- &1&oWater", 0, new String[] {"", "&7元素: &1&oWater", "", "&7&e右键单击&7 熄灭自己身上的火"}, new String[] {"WATER_WORKER-1"});
 
 	/*		 Machines 		*/
-	public static ItemStack GRIND_STONE = new CustomItem(Material.DISPENSER, "&bGrind Stone", "", "&a&oGrinds Items for more Efficiency");
-	public static ItemStack ARMOR_FORGE = new CustomItem(Material.ANVIL, "&6Armor Forge", "", "&a&oGives you the Ability to create powerful Armor");
-	public static ItemStack SMELTERY = new CustomItem(Material.FURNACE, "&6Smeltery", "", "&a&oActs as a high-temperature Furnace for Metals");
-	public static ItemStack IGNITION_CHAMBER = new CustomItem(Material.HOPPER, "&4Automatic Ignition Chamber", "&rPrevents the Smeltery from using up fire.", "&rRequires Flint and Steel", "&rMust be placed adjacent to the Smeltery's dispenser");
-	public static ItemStack ORE_CRUSHER = new CustomItem(Material.DISPENSER, "&bOre Crusher", "", "&a&oCrushes Ores to double them");
-	public static ItemStack COMPRESSOR = new CustomItem(Material.PISTON, "&bCompressor", "", "&a&oCompresses Items");
-	public static ItemStack PRESSURE_CHAMBER = new CustomItem(Material.GLASS, "&bPressure Chamber", "", "&a&oCompresses Items even more");
-	public static ItemStack MAGIC_WORKBENCH = new CustomItem(Material.CRAFTING_TABLE, "&6Magic Workbench", "Infuses Items with magical Energy");
-	public static ItemStack ORE_WASHER = new CustomItem(Material.CAULDRON, "&6Ore Washer", "", "&a&oWashes Sifted Ore to filter Ores", "&a&oand gives you small Stone Chunks");
-	public static ItemStack SAW_MILL = new CustomItem(Material.IRON_BARS, "&6Saw Mill", "", "&a&oAllows you to get 8 planks from 1 Log");
-	public static ItemStack COMPOSTER = new CustomItem(Material.CAULDRON, "&aComposter", "", "&a&oCan convert various Materials over Time...");
-	public static ItemStack ENHANCED_CRAFTING_TABLE = new CustomItem(Material.CRAFTING_TABLE, "&eEnhanced Crafting Table", "", "&a&oA regular Crafting Table cannot", "&a&ohold this massive Amount of Power...");
-	public static ItemStack CRUCIBLE = new CustomItem(Material.CAULDRON, "&cCrucible", "", "&a&oUsed to smelt Items into Liquids");
-	public static ItemStack JUICER = new CustomItem(Material.GLASS_BOTTLE, "&aJuicer", "", "&a&oAllows you to create delicious Juice");
+	public static ItemStack GRIND_STONE = new CustomItem(Material.DISPENSER, "&b磨石", "", "&a&o研磨物品以提高效率");
+	public static ItemStack ARMOR_FORGE = new CustomItem(Material.ANVIL, "&6装甲锻造台", "", "&a&o锻造强力的盔甲");
+	public static ItemStack SMELTERY = new CustomItem(Material.FURNACE, "&6冶炼厂", "", "&a&o金属的高温熔炉");
+	public static ItemStack IGNITION_CHAMBER = new CustomItem(Material.HOPPER, "&4自动点火室", "&r防止冶炼厂用完火.", "&r需要打火石", "&r必须放在冶炼厂的发射器旁边");
+	public static ItemStack ORE_CRUSHER = new CustomItem(Material.DISPENSER, "&b打粉机", "", "&a&o双倍矿物!");
+	public static ItemStack COMPRESSOR = new CustomItem(Material.PISTON, "&b压缩机", "", "&a&o压缩物品");
+	public static ItemStack PRESSURE_CHAMBER = new CustomItem(Material.GLASS, "&b压力仓", "", "&a&o压缩更多物品");
+	public static ItemStack MAGIC_WORKBENCH = new CustomItem(Material.CRAFTING_TABLE, "&6魔法工作台", "给物品注入魔法能量");
+	public static ItemStack ORE_WASHER = new CustomItem(Material.CAULDRON, "&6洗矿机", "", "&a&o洗涤矿石", "&a&o并给你一些小石块");
+	public static ItemStack SAW_MILL = new CustomItem(Material.IRON_BARS, "&6锯木厂", "", "&a&o一个木头劈成8份");
+	public static ItemStack COMPOSTER = new CustomItem(Material.CAULDRON, "&a堆肥桶", "", "&a&o可以随时间转换各种材料...");
+	public static ItemStack ENHANCED_CRAFTING_TABLE = new CustomItem(Material.CRAFTING_TABLE, "&e附魔工作台", "", "&a&o一个普通的工作台", "&a&o无法包含如此多的力量...");
+	public static ItemStack CRUCIBLE = new CustomItem(Material.CAULDRON, "&c坩埚", "", "&a&o用于把物品熔化成液体");
+	public static ItemStack JUICER = new CustomItem(Material.GLASS_BOTTLE, "&a榨汁机", "", "&a&o允许你榨取美味的汁液");
 
 	public static ItemStack SOLAR_PANEL = new CustomItem(Material.DAYLIGHT_DETECTOR, "&bSolar Panel", "", "&a&oTransforms Sunlight to Energy");
 	public static ItemStack SOLAR_ARRAY = new CustomItem(Material.DAYLIGHT_DETECTOR, "&b太阳能阵列", "", "&a&oTransforms Sunlight to Energy");
