@@ -225,30 +225,30 @@ public class SlimefunItems {
 	public static ItemStack COOLING_UNIT = null;
 	public static ItemStack ELECTRIC_MOTOR = null;
 	public static ItemStack CARGO_MOTOR = null;
-	public static ItemStack SCROLL_OF_DIMENSIONAL_TELEPOSITION = new CustomItem(Material.PAPER, "&6跨纬度传送卷轴", "", "&c此卷轴能够创建", "&c一个临时黑洞把周围", "&c生物包括自己", "&c传送到其他他维度", "&c一切都转过来了", "", "&r换一种说法: 让实体旋转180°");
+	public static ItemStack SCROLL_OF_DIMENSIONAL_TELEPOSITION = new CustomItem(Material.PAPER, "&6对影折跃卷轴", "", "&c此卷轴能够创建", "&c一个临时黑洞把周围", "&c生物包括自己", "&c传送到其他他维度", "&c一切都转过来了", "", "&r换一种说法: 让实体旋转180°");
 	public static ItemStack TOME_OF_KNOWLEDGE_SHARING = new CustomItem(Material.BOOK, "&6知识共享图腾", "&7所有者: &b无", "", "&e右键单击&7 绑定图腾到你身上", "", "", "&e右键单击&7 来获取所有者", "&7解锁的全部研究");
 	public static ItemStack HARDENED_GLASS = new CustomItem(Material.LIGHT_GRAY_STAINED_GLASS, "&7硬化玻璃", "", "&r抗爆炸");
 	public static ItemStack WITHER_PROOF_OBSIDIAN = new CustomItem(Material.OBSIDIAN, "&5凋零黑曜石", "", "&r抗爆炸", "&r抗凋零");
 	public static ItemStack WITHER_PROOF_GLASS = new CustomItem(Material.PURPLE_STAINED_GLASS, "&5凋零玻璃", "", "&rW抗爆炸", "&r抗凋零");
 	public static ItemStack REINFORCED_PLATE = new CustomItem(Material.PAPER, "&7加强板");
-	public static ItemStack ANCIENT_PEDESTAL = new CustomItem(Material.DISPENSER, "&d古代基座", "", "&5Part of the Ancient Altar");
-	public static ItemStack ANCIENT_ALTAR = new CustomItem(Material.ENCHANTING_TABLE, "&d古代祭坛", "", "&5Multi-Block Altar for", "&5magical Crafting Processes");
+	public static ItemStack ANCIENT_PEDESTAL = new CustomItem(Material.DISPENSER, "&d古代基座", "", "&5P古代祭坛的一部分");
+	public static ItemStack ANCIENT_ALTAR = new CustomItem(Material.ENCHANTING_TABLE, "&d古代祭坛", "", "&5多方块结构 合成", "&5魔法物品的祭坛");
 	public static ItemStack DUCT_TAPE = null;
 
-	public static ItemStack RAINBOW_WOOL = new CustomItem(Material.WHITE_WOOL, "&5Rainbow Wool", "", "&dCycles through all Colors of the Rainbow!");
-	public static ItemStack RAINBOW_GLASS = new CustomItem(Material.WHITE_STAINED_GLASS, "&5Rainbow Glass", "", "&dCycles through all Colors of the Rainbow!");
-	public static ItemStack RAINBOW_CLAY = new CustomItem(Material.WHITE_TERRACOTTA, "&5Rainbow Clay", "", "&dCycles through all Colors of the Rainbow!");
-	public static ItemStack RAINBOW_GLASS_PANE = new CustomItem(Material.WHITE_STAINED_GLASS_PANE, "&5Rainbow Glass Pane", "", "&dCycles through all Colors of the Rainbow!");
+	public static ItemStack RAINBOW_WOOL = new CustomItem(Material.WHITE_WOOL, "&5彩虹 羊毛", "", "&d就像是彩虹一样的美丽!");
+	public static ItemStack RAINBOW_GLASS = new CustomItem(Material.WHITE_STAINED_GLASS, "&5彩虹 玻璃", "", "&d就像是彩虹一样的美丽!");
+	public static ItemStack RAINBOW_CLAY = new CustomItem(Material.WHITE_TERRACOTTA, "&5彩虹 粘土", "", "&d就像是彩虹一样的美丽!");
+	public static ItemStack RAINBOW_GLASS_PANE = new CustomItem(Material.WHITE_STAINED_GLASS_PANE, "&5彩虹 玻璃板", "", "&d就像是彩虹一样的美丽!");
 
-	public static ItemStack RAINBOW_WOOL_XMAS = new CustomItem(Material.WHITE_WOOL, "&5Rainbow Wool &7(Christmas)", "", Christmas.color("< Christmas Edition >"));
-	public static ItemStack RAINBOW_GLASS_XMAS = new CustomItem(Material.WHITE_STAINED_GLASS, "&5Rainbow Glass &7(Christmas)", "", Christmas.color("< Christmas Edition >"));
-	public static ItemStack RAINBOW_CLAY_XMAS = new CustomItem(Material.WHITE_TERRACOTTA, "&5Rainbow Clay &7(Christmas)", "", Christmas.color("< Christmas Edition >"));
-	public static ItemStack RAINBOW_GLASS_PANE_XMAS = new CustomItem(Material.WHITE_STAINED_GLASS_PANE, "&5Rainbow Glass Pane &7(Christmas)", "", Christmas.color("< Christmas Edition >"));
+	public static ItemStack RAINBOW_WOOL_XMAS = new CustomItem(Material.WHITE_WOOL, "&5彩虹 羊毛 &7(圣诞节)", "", Christmas.color("< 圣诞节 限量珍藏版 >"));
+	public static ItemStack RAINBOW_GLASS_XMAS = new CustomItem(Material.WHITE_STAINED_GLASS, "&5彩虹 玻璃 &7(圣诞节)", "", Christmas.color("< 圣诞节 限量珍藏版 >"));
+	public static ItemStack RAINBOW_CLAY_XMAS = new CustomItem(Material.WHITE_TERRACOTTA, "&5彩虹 粘土 &7(圣诞节)", "", Christmas.color("< 圣诞节 限量珍藏版 >"));
+	public static ItemStack RAINBOW_GLASS_PANE_XMAS = new CustomItem(Material.WHITE_STAINED_GLASS_PANE, "&5彩虹 玻璃板 &7(圣诞节)", "", Christmas.color("< 圣诞节 限量珍藏版 >"));
 
-	public static ItemStack RAINBOW_WOOL_VALENTINE = new CustomItem(Material.PINK_WOOL, "&5Rainbow Wool &7(Valentine's Day)", "", "&d< Valentine's Day Edition >");
-	public static ItemStack RAINBOW_GLASS_VALENTINE = new CustomItem(Material.PINK_STAINED_GLASS, "&5Rainbow Glass &7(Valentine's Day)", "", "&d< Valentine's Day Edition >");
-	public static ItemStack RAINBOW_CLAY_VALENTINE = new CustomItem(Material.PINK_TERRACOTTA, "&5Rainbow Clay &7(Valentine's Day)", "", "&d< Valentine's Day Edition >");
-	public static ItemStack RAINBOW_GLASS_PANE_VALENTINE = new CustomItem(Material.PINK_STAINED_GLASS_PANE, "&5Rainbow Glass Pane &7(Valentine's Day)", "", "&d< Valentine's Day Edition >");
+	public static ItemStack RAINBOW_WOOL_VALENTINE = new CustomItem(Material.PINK_WOOL, "&5彩虹 Wool &7(情人节)", "", "&d< 情人节 限量珍藏版 >");
+	public static ItemStack RAINBOW_GLASS_VALENTINE = new CustomItem(Material.PINK_STAINED_GLASS, "&5彩虹 玻璃 &7(情人节)", "", "&d< 情人节 限量珍藏版 >");
+	public static ItemStack RAINBOW_CLAY_VALENTINE = new CustomItem(Material.PINK_TERRACOTTA, "&5彩虹 粘土 &7(情人节)", "", "&d< 情人节 限量珍藏版 >");
+	public static ItemStack RAINBOW_GLASS_PANE_VALENTINE = new CustomItem(Material.PINK_STAINED_GLASS_PANE, "&5彩虹 G玻璃板 &7(情人节)", "", "&d< 情人节 限量珍藏版 >");
 
 	/*		 Ingots 		*/
 	public static ItemStack COPPER_INGOT = new CustomItem(Material.BRICK, "&b铜锭");
