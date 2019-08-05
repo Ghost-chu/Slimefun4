@@ -168,19 +168,19 @@ public class SlimefunStartup extends JavaPlugin {
 			// Setting up bStats
 			new Metrics(this);
 			
-			// Setting up the Auto-Updater
-			Updater updater;
+//			// Setting up the Auto-Updater
+//			Updater updater;
+//
+//			if (!getDescription().getVersion().startsWith("DEV - ")) {
+//				// We are using an official build, use the BukkitDev Updater
+//				updater = new BukkitUpdater(this, getFile(), 53485);
+//			}
+//			else {
+//				// If we are using a development build, we want to switch to our custom
+//				updater = new GitHubBuildsUpdater(this, getFile(), "TheBusyBiscuit/Slimefun4/master");
+//			}
 			
-			if (!getDescription().getVersion().startsWith("DEV - ")) {
-				// We are using an official build, use the BukkitDev Updater
-				updater = new BukkitUpdater(this, getFile(), 53485);
-			}
-			else {
-				// If we are using a development build, we want to switch to our custom 
-				updater = new GitHubBuildsUpdater(this, getFile(), "TheBusyBiscuit/Slimefun4/master");
-			}
-			
-			if (config.getBoolean("options.auto-update")) updater.start();
+//			if (config.getBoolean("options.auto-update")) updater.start();
 
 			// Creating all necessary Folders
 			String[] storage = {"blocks", "stored-blocks", "stored-inventories", "stored-chunks", "universal-inventories", "waypoints", "block-backups"};
@@ -332,11 +332,11 @@ public class SlimefunStartup extends JavaPlugin {
 			getServer().getScheduler().runTaskTimerAsynchronously(this, new AutoSavingTask(), 1200L, config.getInt("options.auto-save-delay-in-minutes") * 60L * 20L);
 			getServer().getScheduler().runTaskTimerAsynchronously(this, ticker, 100L, config.getInt("URID.custom-ticker-delay"));
 
-			getServer().getScheduler().runTaskTimerAsynchronously(this, () -> {
-				for (GitHubConnector connector : GitHubConnector.connectors) {
-					connector.pullFile();
-				}
-			}, 80L, 60 * 60 * 20L);
+//			getServer().getScheduler().runTaskTimerAsynchronously(this, () -> {
+//				for (GitHubConnector connector : GitHubConnector.connectors) {
+//					connector.pullFile();
+//				}
+//			}, 80L, 60 * 60 * 20L);
 
 			// Hooray!
 			System.out.println("[Slimefun] Finished!");
