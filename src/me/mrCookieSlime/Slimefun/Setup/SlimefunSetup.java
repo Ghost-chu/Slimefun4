@@ -2344,18 +2344,25 @@ public class SlimefunSetup {
 									for (int i = 1; i < 9; i++) {
 										int j = 8 - i;
 										Bukkit.getScheduler().runTaskLater(SlimefunStartup.instance, () -> {
-											if (input.getType() == Material.COBBLESTONE || input.getType() == Material.TERRACOTTA || MaterialHelper.isTerracotta(input.getType())) {
-												block.setType(Material.LAVA);
-												Levelled le = (Levelled) block.getBlockData();
-												le.setLevel(j);
-												block.setBlockData(le, false);
-												block.getWorld().playSound(block.getLocation(), Sound.BLOCK_LAVA_POP, 1F, 1F);
-											} else if (MaterialHelper.isLeavesBlock(input.getType())) {
-												block.setType(Material.WATER);
-												Levelled le = (Levelled) block.getBlockData();
-												le.setLevel(j);
-												block.setBlockData(le, false);
-												block.getWorld().playSound(block.getLocation(), Sound.ENTITY_PLAYER_SPLASH, 1F, 1F);
+											if(block.getType() == Material.AIR || block.getType() == Material.CAVE_AIR || block.getType() == Material.VOID_AIR) {
+												if(CSCoreLib.getLib().getProtectionManager()
+														.canBuild(p.getUniqueId(),block)) {
+													if (input.getType() == Material.COBBLESTONE || input.getType() == Material.TERRACOTTA || MaterialHelper.isTerracotta(input.getType())) {
+														block.setType(Material.LAVA);
+														Levelled le = (Levelled) block.getBlockData();
+														le.setLevel(j);
+														block.setBlockData(le, false);
+														SlimefunStartup.instance.logPlacement(p.getName(), block.getLocation(), block.getType(),block.getBlockData());
+														block.getWorld().playSound(block.getLocation(), Sound.BLOCK_LAVA_POP, 1F, 1F);
+													} else if (MaterialHelper.isLeavesBlock(input.getType())) {
+														block.setType(Material.WATER);
+														Levelled le = (Levelled) block.getBlockData();
+														le.setLevel(j);
+														block.setBlockData(le, false);
+														SlimefunStartup.instance.logPlacement(p.getName(), block.getLocation(), block.getType(),block.getBlockData());
+														block.getWorld().playSound(block.getLocation(), Sound.ENTITY_PLAYER_SPLASH, 1F, 1F);
+													}
+												}
 											}
 										}, i*50L);
 									}
